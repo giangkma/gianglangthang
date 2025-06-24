@@ -77,7 +77,8 @@ export const TourLayout = () => {
         href="tel:0986202220"
         className="fixed bottom-6 right-6 z-50 animate-pulse bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-5 rounded-full shadow-lg transition-all duration-300"
       >
-        📞 Gọi ngay: 0986.20.22.20
+        ☎&nbsp;&nbsp;Gọi ngay
+        <span className="sm:inline-block hidden">: 0986.20.22.20</span>
       </a>
     </div>
   )

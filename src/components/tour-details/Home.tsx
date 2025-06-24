@@ -8,7 +8,7 @@ interface IProps {
 const data = {
   title: 'Lảo Thẩn 2860m',
   description: 'Hành trình 16KM / 2 chiều – chinh phục đỉnh mây',
-  backgroundImage: './assets/lao-than/1.png'
+  backgroundImage: './assets/lao-than/3.png'
 }
 
 export const Home = ({ title, description }: IProps) => {

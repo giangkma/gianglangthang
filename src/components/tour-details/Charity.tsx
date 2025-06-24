@@ -8,7 +8,9 @@ export const Charity = () => {
       className="bg-green-50 py-10 px-6 sm:px-10 md:px-16 lg:px-24"
     >
       <h2 className="text-2xl sm:text-4xl font-extrabold text-green-800 mb-6 uppercase tracking-wider text-center">
-        Kết hợp trekking & từ thiện
+        Kết hợp
+        <br />
+        <span className="text-orange-600">trekking & từ thiện</span>
       </h2>
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Text content */}

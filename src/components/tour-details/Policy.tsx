@@ -8,7 +8,8 @@ export const Policy = () => {
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-2xl sm:text-4xl font-extrabold text-center text-green-900 sm:mb-12 mb-6 uppercase tracking-wider">
-          Chính sách hoàn & huỷ tour
+          Chính sách <br />
+          <span className="text-red-600">hoàn & huỷ</span> tour
         </h2>
 
         <div className="bg-white rounded-3xl shadow-xl overflow-hidden">

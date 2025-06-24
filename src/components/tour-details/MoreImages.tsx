@@ -5,7 +5,7 @@ export const MoreImages = () => {
   return (
     <section
       id="more-images"
-      className="bg-green-50 py-12 px-6 sm:px-10 md:px-16 lg:px-24 pb-32"
+      className="bg-green-50 sm:py-12 px-6 sm:px-10 md:px-16 lg:px-24 pb-32"
     >
       <h2 className="text-2xl sm:text-4xl font-extrabold text-green-800 mb-10 uppercase tracking-wider text-center">
         Một vài hình ảnh đẹp về tour

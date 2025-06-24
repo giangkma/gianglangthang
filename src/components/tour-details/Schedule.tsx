@@ -44,7 +44,7 @@ export const Schedule = () => {
   return (
     <section
       id="schedule"
-      className="bg-[#f2f2ed] w-full py-12 px-4 sm:px-6 md:px-10 lg:px-20"
+      className="bg-[#f2f2ed] w-full sm:py-12 px-4 sm:px-6 md:px-10 lg:px-20"
     >
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-green-800 mb-8 text-center uppercase">
@@ -54,7 +54,7 @@ export const Schedule = () => {
           </p>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 sm:gap-8 gap-3">
           {data.schedule.map((item, index) => (
             <div key={index} className="bg-white rounded-xl shadow-md p-5">
               <h3 className="text-xl font-semibold text-green-700 mb-4">

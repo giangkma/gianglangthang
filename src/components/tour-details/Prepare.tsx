@@ -55,7 +55,7 @@ export const Prepare = ({ type }: IProps) => {
           Bạn cần chuẩn bị gì khi đi leo núi cùng Giang?
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-10 mb-8 sm:mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-10 mb-8 sm:mb-12">
           {data[type].body.map((option, index) => (
             <div
               key={index}

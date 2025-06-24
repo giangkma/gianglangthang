@@ -14,9 +14,9 @@ export const Cost = () => {
       id="cost"
       className="bg-gradient-to-b from-white to-green-100 pb-10 sm:py-20 px-6 sm:px-10 md:px-16 lg:px-24"
     >
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 sm:gap-12 gap-4 items-center">
         {/* Chi phí tour */}
-        <div className="bg-white p-8 rounded-3xl shadow-2xl border-l-8 border-red-500">
+        <div className="bg-white sm:p-8 p-6 rounded-3xl shadow-2xl border-l-8 border-red-500">
           <h2 className="text-2xl sm:text-4xl font-extrabold text-green-900 sm:mb-6 mb-4 uppercase tracking-wider text-center">
             Chi phí toàn bộ chuyến đi
           </h2>
@@ -35,7 +35,7 @@ export const Cost = () => {
             <li>
               📩 STK:{' '}
               <span className="font-semibold text-black">
-                7547542000 - Techcombank - Dang Truong Giang
+                754.754.2000 - Techcombank - Dang Truong Giang
               </span>
             </li>
             <li>🔁 Thanh toán phần còn lại sau khi kết thúc tour</li>
@@ -59,14 +59,14 @@ export const Cost = () => {
 
         {/* QR Chuyển khoản */}
         <div className="bg-white p-10 rounded-3xl shadow-2xl flex flex-col items-center">
-          <h3 className="text-2xl sm:text-3xl font-bold text-green-900 mb-4 uppercase tracking-wide text-center">
+          <h3 className="text-xl sm:text-2xl font-bold text-green-900 sm:mb-4 mb-2 uppercase tracking-wide text-center">
             Thông tin chuyển khoản
           </h3>
           <p className="text-base text-gray-700 mb-2">
             Quét mã để chuyển tiền đến:
           </p>
           <p className="text-lg font-semibold text-black">DANG TRUONG GIANG</p>
-          <p className="text-base text-gray-700 mb-2">7547 5420 00</p>
+          <p className="text-base text-gray-700 mb-2">754 754 2000</p>
           <img
             src={data.qrCodeImage}
             alt="QR chuyển khoản"
