@@ -1,18 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-const data = {
+const DATA = {
   trekking: {
     body: [
       {
         title: `✅ Chi phí trên <span className="text-orange-600">ĐÃ</span> bao
               gồm:`,
         items: [
-          '🛡️ Bảo hiểm du lịch <b>(tối đa 50.000.000đ/người)</b>',
-          '🚐 Đưa đón từ Hà Nội tới điểm leo',
-          '🍱 3 bữa ăn chính trong 2 ngày',
-          '💧 Nước uống, găng tay, áo mưa, miếng dán giữ nhiệt',
-          '🧳 Porter vác tối đa 3kg hành lý/khách (thêm sẽ tính thêm phí)',
-          '🧭 Leader hướng dẫn kinh nghiệm, nhiệt tình'
+          '🛡️ Bảo hiểm du lịch (Mức bồi thường tối đa <b>20.000.000đ/người</b> cho trường hợp xấu nhất)',
+          '🚐 Đưa đón từ Hà Nội tới chân núi',
+          '🍱 Chi phí các bữa ăn chính trong 2 ngày (nếu bạn là người ăn chay, hãy nói với Giang, để team có thể chuẩn bị tốt nhất)',
+          '💧 Nước uống, găng tay, áo mưa, miếng dán giữ nhiệt...các đồ dùng của tour',
+          '🧳 Chi phí porter vác đồ tối đa <b>3kg</b> hành lý trên 1 khách. nếu bạn cần porter vác nhiều đồ thì có thể thêm gói plus với chi phí <b>150k/người/ngày</b>, Hoặc gói premium, porter sẽ vác toàn bộ đồ cho bạn và theo kèm bạn 1v1 suốt hành trình với chi phí <b>500k/người/ngày</b>',
+          '🧭 Chi phí leader có kinh nghiệm, hướng dẫn đoàn trong suốt hành trình'
         ],
         color: 'green'
       },
@@ -33,12 +33,51 @@ const data = {
   }
 }
 
-import { TypeTour } from 'domain'
-interface IProps {
-  type: TypeTour
+const PRICE_MOTOR = {
+  [NameTour.TA_CHI_NHU_NAM_NGHIEP]: '400k 2 chiều',
+  [NameTour.NHIU_CO_SAN]: '400k 2 chiều',
+  [NameTour.PUTALENG]: '150k 2 chiều',
+  [NameTour.SAMU]: 'chiều lên 60k, về 100k (nếu sử dụng)',
+  [NameTour.PHU_SA_PHIN]: '150k 1 chiều',
+  [NameTour.KY_QUAN_SAN]: '100k 2 chiều',
+  [NameTour.LUNG_CUNG]: '600k 2 chiều (gần 20km 1 chiều)',
+  [NameTour.LAO_THAN]: undefined,
+  [NameTour.NGU_CHI_SON]: undefined,
+  [NameTour.TA_CHI_NHU]: undefined
 }
 
-export const Included = ({ type }: IProps) => {
+import { NameTour, TypeTour } from 'domain'
+interface IProps {
+  type: TypeTour
+  name: NameTour
+}
+
+export const Included = ({ type, name }: IProps) => {
+  const [data, setData] = React.useState<typeof DATA>(DATA)
+
+  useEffect(() => {
+    if (!!PRICE_MOTOR[name]) {
+      setData((prev) => ({
+        ...prev,
+        trekking: {
+          ...prev.trekking,
+          body: prev.trekking.body.map((option) => {
+            if (option.title.includes('CHƯA')) {
+              return {
+                ...option,
+                items: [
+                  ...option.items,
+                  `🚗 Chi phí xe ôm vào điểm leo: <b>${PRICE_MOTOR[name]}</b>`
+                ]
+              }
+            }
+            return option
+          })
+        }
+      }))
+    }
+  }, [])
+
   return (
     <section
       id="included"

@@ -22,7 +22,7 @@ export const BodyTrekking = ({ name }: IProps) => {
       <Schedule name={name} />
       <Prepare type={TypeTour.TREKKING} />
       <Cost name={name} />
-      <Included type={TypeTour.TREKKING} />
+      <Included name={name} type={TypeTour.TREKKING} />
       <Policy />
       <Charity />
       <MoreImages name={name} />
