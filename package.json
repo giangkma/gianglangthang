@@ -4,11 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "NODE_ENV=dev vite",
     "build": "tsc && vite build",
-    "serve": "vite preview --port 2000",
+    "serve": "vite preview --port 1111",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
     "lint": "eslint src --max-warnings=0",
-    "typecheck": "tsc --project tsconfig.json --noEmit"
+    "typecheck": "tsc --project tsconfig.json --noEmit",
+    "start": "NODE_ENV=test vite --port 1111"
   },
   "dependencies": {
     "antd": "^5.26.1",
