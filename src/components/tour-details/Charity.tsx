@@ -45,7 +45,7 @@ export const Charity = () => {
         <div className="grid grid-cols-2 gap-4">
           {Array.from(
             { length: 2 },
-            (_, i) => `./assets/tu-thien/${i + 1}.png`
+            (_, i) => `/assets/tu-thien/${i + 1}.png`
           ).map((url, index) => (
             <div
               key={index}

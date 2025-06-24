@@ -1,14 +1,14 @@
-import { formatCurrency } from 'domain'
+import { DATA } from 'data'
+import { formatCurrency, NameTour } from 'domain'
 import React from 'react'
 
-const data = {
-  cost: 2600000,
-  description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',
-  isHaveDiscount: true,
-  qrCodeImage: './assets/chuyen-khoan/1.png'
+interface IProps {
+  name: NameTour
 }
 
-export const Cost = () => {
+export const Cost = ({ name }: IProps) => {
+  const data = DATA[name]
+
   return (
     <section
       id="cost"
@@ -21,11 +21,11 @@ export const Cost = () => {
             Chi phí toàn bộ chuyến đi
           </h2>
           <p className="lg:text-5xl text-4xl font-black text-red-600 sm:mb-8 mb-4 drop-shadow-md">
-            {formatCurrency(data.cost)}
+            {formatCurrency(data.cost.value)}
           </p>
 
           <ul className="text-base sm:text-lg text-gray-800 space-y-4 leading-relaxed">
-            <li>{data.description}</li>
+            <li>{data.cost.description}</li>
             <li>
               🏦 CK cú pháp:{' '}
               <span className="font-semibold text-rose-700">
@@ -41,7 +41,7 @@ export const Cost = () => {
             <li>🔁 Thanh toán phần còn lại sau khi kết thúc tour</li>
           </ul>
 
-          {data.isHaveDiscount && (
+          {data.cost.isHaveDiscount && (
             <div className="mt-8 bg-green-50 p-5 rounded-xl border border-green-300">
               <h3 className="text-xl font-semibold text-green-800 mb-3">
                 🎯 Ưu đãi đặc biệt
@@ -68,7 +68,7 @@ export const Cost = () => {
           <p className="text-lg font-semibold text-black">DANG TRUONG GIANG</p>
           <p className="text-base text-gray-700 mb-2">754 754 2000</p>
           <img
-            src={data.qrCodeImage}
+            src="/assets/chuyen-khoan/1.png"
             alt="QR chuyển khoản"
             className="w-full max-w-xs mx-auto rounded-xl shadow-lg hover:scale-105 transition-transform duration-300"
           />

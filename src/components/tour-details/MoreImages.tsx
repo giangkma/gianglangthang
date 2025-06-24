@@ -1,7 +1,12 @@
 import { Image } from 'antd'
+import { NameTour } from 'domain'
 import React from 'react'
 
-export const MoreImages = () => {
+interface IProps {
+  name: NameTour
+}
+
+export const MoreImages = ({ name }: IProps) => {
   return (
     <section
       id="more-images"
@@ -13,7 +18,7 @@ export const MoreImages = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6">
         {Array.from(
           { length: 16 },
-          (_, i) => `./assets/lao-than/anh-dep/${i + 1}.png`
+          (_, i) => `/assets/tours/${name}/anh-dep/${i + 1}.png`
         ).map((url, index) => (
           <div
             key={index}

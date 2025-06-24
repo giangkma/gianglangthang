@@ -1,23 +1,20 @@
+import { DATA } from 'data'
+import { NameTour } from 'domain'
 import React, { useEffect, useState } from 'react'
 
 interface IProps {
-  title?: string
-  description?: string
+  name: NameTour
 }
 
-const data = {
-  title: 'Lảo Thẩn 2860m',
-  description: 'Hành trình 16KM / 2 chiều – chinh phục đỉnh mây',
-  backgroundImage: './assets/lao-than/3.png'
-}
-
-export const Home = ({ title, description }: IProps) => {
+export const Home = ({ name }: IProps) => {
+  console.log(name)
+  const data = DATA[name]
   return (
     <div>
       <section
         className="relative w-full bg-cover bg-center sm:min-h-screen min-h-[70vh]"
         style={{
-          backgroundImage: `url(${data.backgroundImage})`
+          backgroundImage: `url(${data.home.backgroundImage})`
         }}
         id="home"
       >
@@ -35,18 +32,15 @@ export const Home = ({ title, description }: IProps) => {
             cho quỹ thiện nguyện <b>"Hành Trình Yêu Thương"</b>
           </p>
           <h1 className="mt-6 text-3xl sm:text-4xl md:text-6xl font-bold tracking-wide text-green-300 drop-shadow-2xl">
-            {data.title}
+            {data.home.title}
           </h1>
           <p className="mt-2 text-xs sm:text-sm md:text-base drop-shadow-md">
-            {data.description}
+            {data.home.description}
           </p>
 
-          <a
-            href="tel:0986202220"
-            className="mt-6 sm:mt-8 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full transition-all duration-300 shadow-xl"
-          >
-            Đăng ký ngay: 0986.20.22.20
-          </a>
+          <div className="mt-4 relative sm:mt-6 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full transition-all duration-300 shadow-xl">
+            <a href="tel:0986202220">Đăng ký ngay: 0986.20.22.20</a>
+          </div>
           <p className="mt-3 sm:mt-4 text-[10px] sm:text-xs md:text-sm opacity-90 drop-shadow-sm">
             Tiktok: #gianglangthang
           </p>

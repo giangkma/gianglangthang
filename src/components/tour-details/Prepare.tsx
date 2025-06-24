@@ -32,10 +32,10 @@ const data = {
       }
     ],
     images: [
-      './assets/vat-dung/1.png',
-      './assets/vat-dung/2.png',
-      './assets/vat-dung/3.png',
-      './assets/vat-dung/4.png'
+      '/assets/vat-dung/1.png',
+      '/assets/vat-dung/2.png',
+      '/assets/vat-dung/3.png',
+      '/assets/vat-dung/4.png'
     ]
   }
 }
