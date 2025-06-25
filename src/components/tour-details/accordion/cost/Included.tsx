@@ -27,18 +27,12 @@ interface IProps {
 export const Included = ({ type }: IProps) => {
   const option = DATA[type].body
   return (
-    <div>
-      <div className={`bg-green-50 p-8 `}>
-        <h3
-          className={`text-xl font-bold text-green-700 mb-4`}
-          dangerouslySetInnerHTML={{ __html: option.title }}
-        ></h3>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 text-sm sm:text-base">
-          {option.items.map((item, idx) => (
-            <li key={idx} dangerouslySetInnerHTML={{ __html: item }} />
-          ))}
-        </ul>
-      </div>
+    <div className={`bg-green-50 p-4 `}>
+      <ul className="list-disc list-inside space-y-2 text-gray-700 text-sm sm:text-base">
+        {option.items.map((item, idx) => (
+          <li key={idx} dangerouslySetInnerHTML={{ __html: item }} />
+        ))}
+      </ul>
     </div>
   )
 }

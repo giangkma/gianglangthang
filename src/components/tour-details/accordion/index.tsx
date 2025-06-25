@@ -15,43 +15,43 @@ import { Payment } from './payment'
 
 const noticeList = [
   {
-    title: 'Giá tour bao gồm',
+    title: '✅ Giá tour bao gồm',
     content: Included
   },
   {
-    title: 'Giá tour không bao gồm',
+    title: '❌ Giá tour không bao gồm',
     content: NotIncluded
   },
   {
-    title: 'Bạn cần chuẩn bị gì khi đi tour',
+    title: '🎒 Bạn cần chuẩn bị gì khi đi tour',
     content: YouPrepare
   },
   {
-    title: 'GLT sẽ chuẩn bị gì cho bạn?',
+    title: '🧑‍🤝‍🧑 GLT sẽ chuẩn bị gì cho bạn?',
     content: MePrepare
   },
   {
-    title: 'Lưu ý khi Hoàn & Huỷ tour',
+    title: '⚠️ Lưu ý khi Hoàn & Huỷ tour',
     content: Policy
   },
   {
-    title: 'Lưu ý giá trẻ em',
+    title: '👶 Lưu ý giá trẻ em',
     content: Children
   },
   {
-    title: 'Trường hợp bất khả kháng',
+    title: '🛡️ Trường hợp bất khả kháng',
     content: Impossible
   },
   {
-    title: 'Số lượng khách tham gia',
+    title: '👥 Số lượng khách tham gia',
     content: TourStart
   },
   {
-    title: 'Hướng dẫn đặt tour',
+    title: '📝 Hướng dẫn đặt tour',
     content: Register
   },
   {
-    title: 'Hình thức thanh toán',
+    title: '💳 Hình thức thanh toán',
     content: Payment
   }
 ]
