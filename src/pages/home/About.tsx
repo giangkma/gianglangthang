@@ -54,7 +54,7 @@ export const About = () => {
               <h4 className="font-semibold text-lg mb-1">Đồ ăn chất lượng:</h4>
               <p>
                 Thực đơn phong phú, đầy đủ dinh&nbsp;dưỡng, cung&nbsp;cấp bữa ăn
-                chay theo yêu&nbsp;cầu của quý khách&nbsp;hàng
+                chay theo yêu&nbsp;cầu của quý khách&nbsp;hàng.
               </p>
             </div>
           </div>

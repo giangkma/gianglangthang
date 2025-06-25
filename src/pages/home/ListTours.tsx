@@ -1,7 +1,7 @@
 import React from 'react'
 import { TourCard } from './TourCard'
 import { DATA, LIST_TOURS } from 'data'
-import { formatCurrency } from 'domain'
+import { formatCurrency } from 'domain/index'
 
 export const ListTours = () => {
   return (

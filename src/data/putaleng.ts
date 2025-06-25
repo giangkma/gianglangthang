@@ -1,4 +1,4 @@
-import { APP_CONST, NameTour, TypeTour } from 'domain'
+import { APP_CONST, NameTour, TypeTour } from 'domain/index'
 
 export const Putaleng = {
   name: NameTour.PUTALENG,
@@ -24,7 +24,7 @@ Hành trình leo núi Putaleng đi xuyên qua cánh rừng nguyên sinh của Vi
   },
   schedule: {
     title: 'Lịch trình 3 ngày 3 đêm – Chinh phục Putaleng',
-    description: 'Phương tiện: xe 16,29 chỗ',
+    description: 'Phương tiện di chuyển: xe 16,29 chỗ',
     schedule: [
       {
         day: 'Ngày 0 & 1: Hà Nội – Sapa - Hồ Thầu',

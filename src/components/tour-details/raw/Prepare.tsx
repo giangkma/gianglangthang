@@ -1,4 +1,4 @@
-import { TypeTour } from 'domain'
+import { TypeTour } from 'domain/index'
 import React from 'react'
 
 const data = {

@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import { ChevronLeftIcon, ChevronRightIcon, Flame } from 'lucide-react'
 import { LIST_TOURS } from 'data'
-import { formatCurrency } from 'domain'
+import { formatCurrency } from 'domain/index'
 import { useNavigate } from 'react-router-dom'
 
 interface TourItem {

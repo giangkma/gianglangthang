@@ -1,4 +1,4 @@
-import { APP_CONST, NameTour, TypeTour } from 'domain'
+import { APP_CONST, NameTour, TypeTour } from 'domain/index'
 
 export const KyQuanSan = {
   name: NameTour.KY_QUAN_SAN,
@@ -24,7 +24,7 @@ Nổi bật nhất, và tạo nên thương hiệu cho Ky Quan San chính là b�
   },
   schedule: {
     title: 'Lịch trình 3 ngày 3 đêm – Chinh phục Ky Quan San',
-    description: 'Phương tiện: xe 16,29 chỗ',
+    description: 'Phương tiện di chuyển: xe 16,29 chỗ',
     schedule: [
       {
         day: 'Ngày 0 & 1: Hà Nội - Lào Cai - Núi Muối',

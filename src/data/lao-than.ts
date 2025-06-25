@@ -1,4 +1,4 @@
-import { APP_CONST, NameTour, TypeTour } from 'domain'
+import { APP_CONST, NameTour, TypeTour } from 'domain/index'
 
 export const LaoThan = {
   name: NameTour.LAO_THAN,
@@ -36,7 +36,7 @@ export const LaoThan = {
   },
   schedule: {
     title: 'Lịch trình 2 ngày 2 đêm – Chinh phục Lảo Thẩn',
-    description: 'Phương tiện: xe 16,29 chỗ',
+    description: 'Phương tiện di chuyển: xe 16,29 chỗ',
     schedule: [
       {
         day: 'Ngày 0: Hà Nội - Lào Cai',

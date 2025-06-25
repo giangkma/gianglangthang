@@ -1,5 +1,5 @@
 import { BodyTrekking } from 'components/tour-details/BodyTrekking'
-import { NameTour } from 'domain'
+import { NameTour } from 'domain/index'
 import { Helmet } from 'react-helmet-async'
 
 export const PhuSaPhin = () => {

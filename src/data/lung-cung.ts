@@ -1,4 +1,4 @@
-import { APP_CONST, NameTour, TypeTour } from 'domain'
+import { APP_CONST, NameTour, TypeTour } from 'domain/index'
 
 export const LungCung = {
   name: NameTour.LUNG_CUNG,
@@ -25,7 +25,7 @@ Còn đỉnh Lùng Cúng gây choáng ngợp với góc nhìn tứ phương, tho
   },
   schedule: {
     title: 'Lịch trình 2 ngày 2 đêm – Chinh phục Lùng Cúng',
-    description: 'Phương tiện: xe 16,29 chỗ',
+    description: 'Phương tiện di chuyển: xe 16,29 chỗ',
     schedule: [
       {
         day: 'Ngày 0: Hà Nội – Yên Bái',

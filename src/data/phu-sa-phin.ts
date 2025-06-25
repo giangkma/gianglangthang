@@ -1,4 +1,4 @@
-import { APP_CONST, NameTour, TypeTour } from 'domain'
+import { APP_CONST, NameTour, TypeTour } from 'domain/index'
 
 export const PhuSaPhin = {
   name: NameTour.PHU_SA_PHIN,
@@ -26,7 +26,7 @@ Ngọn núi này được dân mê xê dịch ví như một huyền thoại, b�
   },
   schedule: {
     title: 'Lịch trình 2 ngày 2 đêm – Chinh phục Phu Sa Phìn',
-    description: 'Phương tiện: xe 16,29 chỗ',
+    description: 'Phương tiện di chuyển: xe 16,29 chỗ',
     schedule: [
       {
         day: 'Ngày 0: Hà Nội – Yên Bái',

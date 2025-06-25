@@ -1,4 +1,4 @@
-import { APP_CONST, NameTour, TypeTour } from 'domain'
+import { APP_CONST, NameTour, TypeTour } from 'domain/index'
 
 export const NhiuCoSan = {
   name: NameTour.NHIU_CO_SAN,
@@ -24,7 +24,7 @@ export const NhiuCoSan = {
   },
   schedule: {
     title: 'Lịch trình 2 ngày 2 đêm – Chinh phục Nhìu Cồ San',
-    description: 'Phương tiện: xe 16,29 chỗ',
+    description: 'Phương tiện di chuyển: xe 16,29 chỗ',
     schedule: [
       {
         day: 'Ngày 0: Hà Nội - Lào Cai (xe 16,29 chỗ)',

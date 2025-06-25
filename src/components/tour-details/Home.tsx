@@ -26,10 +26,10 @@ export const Home = ({ name }: IProps) => {
             nơi
           </h2>
           <p className="mt-2 text-xs sm:text-sm md:text-base max-w-xl drop-shadow-md">
-            Kết hợp trekking và thiện nguyện - cam kết trích
+            Kết hợp trekking và thiện nguyện - Cam kết trích
             <span className="text-pink-400 font-semibold"> 50.000đ/khách </span>
             <br />
-            cho quỹ thiện nguyện <b>"Hành Trình Yêu Thương"</b>
+            vào Quỹ Thiện Nguyện <b>"Hành Trình Yêu Thương"</b>
           </p>
           <h1 className="mt-6 text-3xl sm:text-4xl md:text-6xl font-bold tracking-wide text-green-300 drop-shadow-2xl">
             {data.home.title}
@@ -39,11 +39,18 @@ export const Home = ({ name }: IProps) => {
           </p>
 
           <div className="mt-4 relative sm:mt-6 bg-primary font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full transition-all duration-300 shadow-xl">
-            <a href="tel:0986202220">Đăng ký ngay: 0986.20.22.20</a>
+            <a href="https://facebook.com/gianglangthangg" target="_blank">
+              Đăng ký ngay
+            </a>
           </div>
-          <p className="mt-3 sm:mt-4 text-[10px] sm:text-xs md:text-sm opacity-90 drop-shadow-sm">
+          <a
+            href="https://www.tiktok.com/@gianglangthangvn"
+            target="_blank"
+            rel="noopener"
+            className="mt-3 sm:mt-4 text-[10px] sm:text-xs md:text-sm opacity-90 drop-shadow-sm"
+          >
             Tiktok: #gianglangthang
-          </p>
+          </a>
         </div>
       </section>
     </div>

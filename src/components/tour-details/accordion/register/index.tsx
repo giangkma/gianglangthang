@@ -30,7 +30,7 @@ export const Register = () => {
             href="tel:0986202220"
             className="inline-flex items-center gap-2 hover:underline hover:text-orange-600 transition text-blue-600"
           >
-            0986.20.22.20
+            0986.202.220
           </a>{' '}
           để được tư&nbsp;vấn và kiểm&nbsp;tra tình&nbsp;trạng tour.
         </li>

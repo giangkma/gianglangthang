@@ -2,6 +2,18 @@ export enum TypeTour {
   TREKKING = 'trekking'
 }
 
+export interface ICreateBookingSaleBody {
+  tour: string
+  date: string
+  people: number
+  phone: string
+}
+
+export const validatePhoneNumber = (phone: string): boolean => {
+  const phoneRegex = /^(0|\+84)(3|5|7|8|9)\d{8}$/
+  return phoneRegex.test(phone)
+}
+
 export enum NameTour {
   LAO_THAN = 'lao-than',
   NHIU_CO_SAN = 'nhiu-co-san',

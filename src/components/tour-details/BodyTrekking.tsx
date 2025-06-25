@@ -1,4 +1,4 @@
-import { NameTour, TypeTour } from 'domain'
+import { NameTour, TypeTour } from 'domain/index'
 import { Home } from './Home'
 import { About } from './About'
 import { Schedule } from './Schedule'

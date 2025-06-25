@@ -1,5 +1,5 @@
 import React from 'react'
-import { NameTour, TypeTour } from 'domain'
+import { NameTour, TypeTour } from 'domain/index'
 
 const DATA = {
   trekking: {

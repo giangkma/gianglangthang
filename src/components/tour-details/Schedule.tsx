@@ -1,5 +1,5 @@
 import { DATA } from 'data'
-import { NameTour } from 'domain'
+import { NameTour } from 'domain/index'
 import React from 'react'
 
 interface IProps {

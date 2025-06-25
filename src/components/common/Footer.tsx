@@ -30,7 +30,7 @@ export const Footer = () => {
           <h4 className="text-lg font-semibold mb-3">Liên hệ</h4>
           <ul className="space-y-2 text-gray-100">
             <li className="flex items-center gap-2">
-              <Phone size={16} /> 0986.20.22.20
+              <Phone size={16} /> 0986.202.220
             </li>
             <li className="flex items-center gap-2">
               <MapPin size={16} /> Hà Nội
@@ -63,6 +63,17 @@ export const Footer = () => {
                 className="flex items-center gap-2 hover:underline hover:text-green-200 transition"
               >
                 <MessageCircle size={16} /> Zalo
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.tiktok.com/@gianglangthangvn"
+                target="_blank"
+                rel="noopener"
+                className="flex items-center gap-2 hover:underline hover:text-green-200 transition"
+              >
+                <Heart size={16} />
+                TikTok
               </a>
             </li>
           </ul>

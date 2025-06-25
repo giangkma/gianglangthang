@@ -1,5 +1,5 @@
 import { DATA } from 'data'
-import { formatCurrency, NameTour } from 'domain'
+import { formatCurrency, NameTour } from 'domain/index'
 import React, { useState } from 'react'
 import { TourBookingForm } from './TourBookingForm'
 

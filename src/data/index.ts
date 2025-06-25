@@ -1,4 +1,4 @@
-import { NameTour } from 'domain'
+import { NameTour } from 'domain/index'
 import { LaoThan } from './lao-than'
 import { NhiuCoSan } from './nhiu-co-san'
 import { LungCung } from './lung-cung'
@@ -22,7 +22,6 @@ export const DATA = {
   [NameTour.PUTALENG]: Putaleng,
   [NameTour.TA_CHI_NHU_NAM_NGHIEP]: TaChiNhuNamNghiep
 }
-
 
 export const LIST_TOURS = [
   {
@@ -48,7 +47,7 @@ export const LIST_TOURS = [
     link: '/tours/lung-cung'
   },
   {
-    title: 'Tour Tà Chì Nhù – săn mây đỉnh cao',
+    title: 'Tà Chì Nhù 2979m',
     image: '/assets/tours/ta-chi-nhu/2.png',
     duration: '2N2Đ',
     label: 'Tour Bán Chạy',
@@ -70,7 +69,7 @@ export const LIST_TOURS = [
     link: '/tours/phu-sa-phin'
   },
   {
-    title: 'Ngũ Chỉ Sơn 2.865m',
+    title: 'Ngũ Chỉ Sơn 2865m',
     image: '/assets/tours/ngu-chi-son/1.png',
     label: 'Khám phá mới',
     duration: '2N2Đ',
@@ -81,7 +80,7 @@ export const LIST_TOURS = [
     link: '/tours/ngu-chi-son'
   },
   {
-    title: 'Samu 2.913m',
+    title: 'Samu 2913m',
     image: '/assets/tours/samu/1.png',
     label: 'Tour Bán Chạy',
     duration: '2N2Đ',
@@ -103,7 +102,7 @@ export const LIST_TOURS = [
     link: '/tours/nhiu-co-san'
   },
   {
-    title: 'Bạch Mộc Lương Tử (Ky Quan San) 3046m',
+    title: 'Ky Quan San 3046m',
     image: '/assets/tours/ky-quan-san/1.png',
     label: 'Tour Hot',
     duration: '2N2Đ',

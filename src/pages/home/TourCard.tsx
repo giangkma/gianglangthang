@@ -44,7 +44,7 @@ export function TourCard({
       {/* Content */}
       <div className="bg-white p-4 text-sm space-y-2">
         <h3
-          className="font-semibold sm:text-xl text-gray-800 hover:text-green-700 transition"
+          className="font-semibold sm:text-xl text-gray-800 hover:text-green-700 transition uppercase"
           onClick={handleClick}
         >
           {title}

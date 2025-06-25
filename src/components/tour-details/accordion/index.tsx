@@ -1,7 +1,7 @@
 import React from 'react'
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from 'lucide-react'
-import { NameTour, TypeTour } from 'domain'
+import { NameTour, TypeTour } from 'domain/index'
 import { Included } from './cost/Included'
 import { NotIncluded } from './cost/NotIncluded'
 import { YouPrepare } from './prepare/YouPrepare'

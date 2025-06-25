@@ -1,4 +1,4 @@
-import { NameTour, TypeTour } from 'domain'
+import { NameTour, TypeTour } from 'domain/index'
 import React from 'react'
 
 const DATA = {

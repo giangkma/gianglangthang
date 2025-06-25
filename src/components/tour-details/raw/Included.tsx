@@ -46,7 +46,7 @@ const PRICE_MOTOR = {
   [NameTour.TA_CHI_NHU]: undefined
 }
 
-import { NameTour, TypeTour } from 'domain'
+import { NameTour, TypeTour } from 'domain/index'
 interface IProps {
   type: TypeTour
   name: NameTour

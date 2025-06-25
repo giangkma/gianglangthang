@@ -1,4 +1,4 @@
-import { APP_CONST, NameTour, TypeTour } from 'domain'
+import { APP_CONST, NameTour, TypeTour } from 'domain/index'
 
 export const TaChiNhuNamNghiep = {
   name: NameTour.TA_CHI_NHU_NAM_NGHIEP,
@@ -24,7 +24,7 @@ export const TaChiNhuNamNghiep = {
   },
   schedule: {
     title: 'Lịch trình 2 ngày 2 đêm – Chinh phục Tà Chì Nhù',
-    description: 'Phương tiện: xe 16,29 chỗ',
+    description: 'Phương tiện di chuyển: xe 16,29 chỗ',
     schedule: [
       {
         day: 'Ngày 0: Hà Nội – Sơn La (xe 16, 29 chỗ)',

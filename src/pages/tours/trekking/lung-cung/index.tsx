@@ -1,5 +1,5 @@
 import { BodyTrekking } from 'components/tour-details/BodyTrekking'
-import { NameTour, TypeTour } from 'domain'
+import { NameTour, TypeTour } from 'domain/index'
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 

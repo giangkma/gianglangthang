@@ -1,7 +1,7 @@
 import React from 'react'
 import Masonry from 'react-masonry-css'
 import { Image } from 'antd'
-import { NameTour } from 'domain'
+import { NameTour } from 'domain/index'
 import { PictureOutlined } from '@ant-design/icons'
 
 interface IProps {
