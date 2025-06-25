@@ -1,5 +1,5 @@
 import { DATA } from 'data'
-import { NameTour } from 'domain'
+import { NameTour } from 'domain/index'
 import React, { useEffect, useState } from 'react'
 
 interface IProps {
@@ -7,7 +7,6 @@ interface IProps {
 }
 
 export const Home = ({ name }: IProps) => {
-  console.log(name)
   const data = DATA[name]
   return (
     <div>
