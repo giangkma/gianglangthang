@@ -3,7 +3,7 @@ import AxiosInstance from 'axios'
 const baseURL =
   process.env.NODE_ENV === 'dev'
     ? import.meta.env.VITE_BASE_URL_LOCAL
-    : 'http://34.71.55.220:8000/'
+    : 'https://api.gianglangthang.vn/'
 
 console.log(baseURL)
 export const axios = AxiosInstance.create({
