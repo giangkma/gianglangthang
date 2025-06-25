@@ -3,9 +3,7 @@ import AxiosInstance from 'axios'
 const baseURL =
   process.env.NODE_ENV === 'dev'
     ? import.meta.env.VITE_BASE_URL_LOCAL
-    : process.env.NODE_ENV === 'test'
-    ? import.meta.env.VITE_BASE_URL_TEST
-    : import.meta.env.VITE_BASE_URL_PROD
+    : 'http://34.71.55.220:8000/'
 
 console.log(baseURL)
 export const axios = AxiosInstance.create({
