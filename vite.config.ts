@@ -11,6 +11,6 @@ export default defineConfig({
   preview: {
     port: 1111,
     host: '0.0.0.0',
-    allowedHosts: ['gianglangthang.xyz']
+    allowedHosts: ['gianglangthang.vn']
   }
 })
