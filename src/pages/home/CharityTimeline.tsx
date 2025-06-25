@@ -16,9 +16,9 @@ const events: EventItem[] = [
     date: '09/2024 - 04/2025',
     title:
       '🎉 Khởi nguồn hành trình -&nbsp;Sức&nbsp;mạnh&nbsp;của&nbsp;sự&nbsp;Lan&nbsp;Toả',
-    description: `Quỹ được thành lập với mong muốn lan tỏa yêu thương tới cộng đồng khó khăn, và đã nhanh chóng nhận được rất nhiều những sự ủng hộ của các khách tham gia tour, của các nhà hảo tâm biết tới quỹ. Chúng tớ đã sử dụng quỹ công khai, minh bạch, mua sữa, quần áo ấm để cùng các bạn thực hiện các chuyến thiện nguyện. 
-       <br />
-      Đã có trên 100 tour kết hợp thiện nguyện được tổ chức, với sự tham gia của hàng nghìn bạn trẻ yêu thiên nhiên và muốn đóng góp cho cộng đồng.`,
+    description: `Quỹ thiện nguyện "Hành trình yêu thương" được thành lập với mong muốn lan tỏa yêu thương tới cộng đồng khó khăn và đã nhanh chóng nhận được rất nhiều những sự ủng hộ của các khách tham gia tour cũng các nhà hảo tâm. Toàn bộ hoạt động của quỹ đều được công khai, minh bạch. Giang Lang Thang đã cùng nhau sử dụng quỹ để mua sữa, quần áo ấm và tổ chức các chuyến thiện nguyện ý nghĩa đến nhiều vùng cao. 
+<br />
+Tính đến nay, hơn 100 tour trekking - du lịch kết hợp thiện nguyện đã được Giang Lang Thang tổ chức, thu hút sự tham gia của hàng nghìn bạn trẻ yêu thiên nhiên và mong muốn đóng góp cho cộng đồng.`,
     image: [
       '/assets/tu-thien/1.png',
       '/assets/tu-thien/5.png',
@@ -29,9 +29,9 @@ const events: EventItem[] = [
   },
   {
     date: '12/2024',
-    title: '🎁 Hành Trình Yêu Thương 01 -&nbsp;Lùng&nbsp;Cúng',
+    title: '🎁 Hành Trình Yêu Thương 01 - Trạm&nbsp;Lùng&nbsp;Cúng',
     description:
-      'Ấp ủ từ lâu, chuyến thiện nguyện đầu tiên đã diễn ra thành công. Tớ không chỉ muốn dừng lại ở phát sữa, quần áo, mà còn muốn mang đến những món quà ý nghĩa, thiết thực cho bà con vùng cao. Đem tới điểm trưởng những cơ sở vật chất mới, giúp điểm trường khang trang hơn, giúp các em nhỏ có điều kiện học tập tốt hơn. Và Tớ đã tổ chức chuyến HTYT đầu tiên tại Lùng Cúng, Yên Bái này, với sự tham gia của 17 anh/chị/em',
+      'Ấp ủ từ lâu, chuyến thiện nguyện "Hành Trình Yêu Thương" đầu tiên được tổ chức tại Lùng Cúng, Yên Bái với sự đồng hành của 17 anh chị em đã diễn ra trọn vẹn và đầy ý nghĩa. Giang Lang Thang không chỉ mong muốn mang sữa hay quần áo đến với bà con vùng cao mà còn khát khao trao tặng những món quà thật sự ý nghĩa và thiết thực, đem đến những điều có thể góp phần thay đổi điều kiện học tập, sinh hoạt của các em và bà con nhỏ nơi đây. ',
     image: [
       '/assets/htyt/1/1.png',
       '/assets/htyt/1/2.png',
@@ -43,10 +43,11 @@ const events: EventItem[] = [
   },
   {
     date: '01/2025',
-    title: '📚 Hành Trình Yêu Thương 02 -&nbsp;Lảo&nbsp;Thẩn',
+    title: '📚 Hành Trình Yêu Thương 02 - Trạm&nbsp;Lảo&nbsp;Thẩn',
     description: `
-      Trong chuyến đi thứ 2 của Hành trình yêu thương, GLT cùng mọi người trong đoàn đã tổ chức và trao tặng các món quà đến các em nhỏ và người dân tại Lảo Thẩn, cùng nhau vui chơi và gói những chiếc bánh chưng thật đẹp. Trong những ngày sát Tết, được quây quần cùng mọi người, không khí của ngày thiện nguyện thật sự đã vui hơn bao giờ hết.
-       <br />❤️Cảm ơn cô Sen, cô Huyền cùng các cô giáo tại điểm trường, cảm ơn các anh bên thôn, xã, biên phòng đã tạo điều kiện, giúp đỡ đoàn em thực hiện thành công chương trình này 🥰`,
+      Trong chuyến đi thứ hai của "Hành Trình Yêu Thương", Giang Lang Thang cùng các thành viên trong đoàn đã tổ chức trao tặng những phần quà ý nghĩa đến các em nhỏ và bà con tại Lảo Thẩn. Bên cạnh hoạt động thiện nguyện, cả đoàn còn cùng nhau gói bánh chưng và vui chơi với các em nhỏ trong không khí ấm cúng những ngày cận Tết. Sự sum vầy, tiếng cười và niềm vui lan tỏa trong từng khoảnh khắc khiến chuyến đi trở nên thật đặc biệt và đáng nhớ.
+<br />
+Giang Lang Thang xin gửi lời cảm ơn chân thành đến cô Sen, cô Huyền cùng các cô giáo tại điểm trường, các anh ở thôn, xã và bộ đội biên phòng đã tạo điều kiện, hỗ trợ để chương trình diễn ra thành công tốt đẹp.`,
     image: [
       '/assets/htyt/2/1.png',
       '/assets/htyt/2/2.png',
@@ -58,7 +59,7 @@ const events: EventItem[] = [
   },
   {
     date: '03/2025',
-    title: '🧒 Hành Trình Yêu Thương 03 -&nbsp;Hà&nbsp;Giang',
+    title: '🧒 Hành Trình Yêu Thương 03 - Trạm&nbsp;Hà&nbsp;Giang',
     description: `💐 Trong chuyến đi thứ 3 của Hành trình yêu thương, GLT cùng mọi người trong đoàn đã tổ chức và trao tặng các món quà đến các em nhỏ và người dân tại thôn Lủng Chư, cùng nhau vui chơi và giao lưu với các bé tại điểm trường. 
      <br />
 💌 Khi nhìn thấy sự hạnh phúc và hân hoan hiện lên trên gương mặt các em nhỏ, người dân và cả các thành viên trong đoàn, Giang Lang Thang mong muốn sẽ tổ chức được nhiều hơn các buổi thiện nguyện tại các địa điểm khác nhau, được nhiều người biết đến hơn và các chương trình sẽ đa dạng hơn.`,
@@ -73,7 +74,7 @@ const events: EventItem[] = [
   },
   {
     date: '04/2025',
-    title: '🩺 Hành Trình Yêu Thương 04 -&nbsp;Tà&nbsp;Xùa',
+    title: '🩺 Hành Trình Yêu Thương 04 - Trạm&nbsp;Tà&nbsp;Xùa',
     description: `🫶 Trong không khí cả nước hướng về Miền Nam đón chào ngày 30/4, kỉ niệm 50 năm giải phóng, thống nhất đất nước. Thì chúng tớ lại chọn 1 cách rất riêng để thể hiện lòng yêu nước của mình ❤, chúng tớ đã cùng nhau sắp xếp hành trang để tới với mảnh đất Sơn La xinh đẹp để lan toả yêu thương tới những bà con vùng cao trong ngày thống nhất.
     <br />
     🥳 Với 21 thành viên, chúng tớ đã đem tới cho gần 100 em nhỏ điểm trường mầm non Tà Xùa B thuộc địa phận Tà Xùa, Bắc Yên, Sơn La rất nhiều những phần quà như áo, sách, bút...những hoạt động trải nghiệm thú vị như tô tượng, chơi trò chơi dân gian, xem phim...đem tới cho bà con quần áo, nhu yếu phẩm...Và đặc biệt là HTYT4 đã sơn sửa lại điểm trường, giúp các em có 1 môi trường học tập khang trang, sạch sẽ hơn.`,
@@ -104,19 +105,20 @@ export const CharityTimeline = (): JSX.Element => {
         <div className="">
           <div>
             <h2 className="text-3xl font-bold text-center text-green-800 mb-4">
-              Quỹ Từ Thiện <br />
+              Quỹ Thiện Nguyện <br />
               <span className="text-orange-600">
                 “Hành&nbsp;Trình&nbsp;Yêu&nbsp;Thương”
               </span>
             </h2>
             <p className="text-center text-gray-700 max-w-2xl mx-auto mb-4">
-              "Chúng tôi là những người yêu thiên&nbsp;nhiên, đam&nbsp;mê
-              khám&nbsp;phá và luôn mong muốn mang lại giá trị cho
-              cộng&nbsp;đồng và xã&nbsp;hội.
-              Quỹ&nbsp;“Hành&nbsp;Trình&nbsp;Yêu&nbsp;Thương” được thành lập với
-              sứ mệnh kết&nbsp;hợp giữa du&nbsp;lịch và thiện &nbsp;nguyện, mang
-              lại niềm&nbsp;vui và sự hỗ&nbsp;trợ cho những vùng đất còn
-              khó&nbsp;khăn trên mảnh đất hình chữ S xinh&nbsp;đẹp!"
+              "Chúng tôi là những người yêu thiên&nbsp;nhiên, đam&nbsp;mê khám
+              &nbsp;phá và luôn khát&nbsp;khao lan&nbsp;tỏa những giá&nbsp;trị
+              tích&nbsp;cực đến cộng&nbsp;đồng. Quỹ thiện&nbsp;nguyện "Hành
+              &nbsp;Trình&nbsp;Yêu&nbsp;Thương" được thành&nbsp;lập với
+              sứ&nbsp;mệnh kết&nbsp;nối du&nbsp;lịch và thiện&nbsp;nguyện, mang
+              niềm&nbsp;vui, sự sẻ&nbsp;chia và hỗ&nbsp;trợ thiết&nbsp;thực đến
+              những vùng đất còn nhiều khó&nbsp;khăn trên dải đất hình chữ S
+              xinh&nbsp;đẹp."
             </p>
           </div>
           <div className="mb-10 flex flex-col items-center">
@@ -129,8 +131,10 @@ export const CharityTimeline = (): JSX.Element => {
               Ngày <b>7/8/2024</b>,{' '}
               <b>Giang Lang Thang - Du Lịch & Thiện Nguyện </b>
               chính&nbsp;thức được thành&nbsp;lập
-              <br /> cùng với đó là quỹ&nbsp;từ&nbsp;thiện&nbsp;
-              <b>"Hành&nbsp;Trình Yêu&nbsp;Thương"</b> cũng được ra&nbsp;đời!
+              <br />
+              Cùng với Quỹ Thiện Nguyện "Hành&nbsp;Trình&nbsp;Yêu&nbsp;Thương",
+              mở đầu cho hành&nbsp;trình mang yêu&nbsp;thương đến những vùng đất
+              còn khó&nbsp;khăn.
             </p>
           </div>
         </div>

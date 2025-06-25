@@ -10,18 +10,19 @@ export const About = () => {
             Khám&nbsp;phá & Lan&nbsp;toả
           </h2>
           <h3 className="sm:text-3xl text-xl text-orange-600 font-semibold mb-4 uppercase">
-            Giang Lang Thang Tour
+            Giang Lang Thang Travel
           </h3>
           <p className="text-gray-700 leading-relaxed tracking-normal text-justify">
             <span className="block mb-2">
               <strong className="text-primary font-semibold">
                 Giang Lang Thang
               </strong>{' '}
-              không chỉ mang đến hành trình trekking chinh phục thiên nhiên, mà
-              còn là chuyến đi đầy ý&nbsp;nghĩa dành cho cộng&nbsp;đồng.
+              không chỉ là nơi cung&nbsp;cấp các hành&nbsp;trình trekking chinh
+              &nbsp;phục thiên&nbsp;nhiên, mà còn là mang đến những
+              chuyến&nbsp;đi đầy ý&nbsp;nghĩa dành cho cộng&nbsp;đồng.
             </span>
             <span className="block">
-              Mỗi khách tham gia tour, bạn đang đóng góp{' '}
+              Với mỗi lượt tham gia tour, bạn đang đóng góp{' '}
               <strong className="text-rose-600 font-semibold">
                 50.000đ vào Quỹ&nbsp;Thiện&nbsp;Nguyện
               </strong>{' '}
@@ -52,8 +53,8 @@ export const About = () => {
             <div>
               <h4 className="font-semibold text-lg mb-1">Đồ ăn chất lượng:</h4>
               <p>
-                Thực đơn phong phú, đủ dinh&nbsp;dưỡng, có cả mặn - chay theo
-                yêu&nbsp;cầu của quý&nbsp;khách&nbsp;hàng
+                Thực đơn phong phú, đầy đủ dinh&nbsp;dưỡng, cung&nbsp;cấp bữa ăn
+                chay theo yêu&nbsp;cầu của quý khách&nbsp;hàng
               </p>
             </div>
           </div>
