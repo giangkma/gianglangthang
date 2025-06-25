@@ -18,6 +18,8 @@ Do vậy, tour trekking Putaleng chắc chắn sẽ đem lại cho bạn nhiều
 <br/>
 <br/>
 Hành trình leo núi Putaleng đi xuyên qua cánh rừng nguyên sinh của Việt Nam với thảm thực vật đa dạng, rêu và địa y phủ gần như kín các thân cây cổ thụ đến cả những tảng đá. Qua những đoạn suối trong vắt róc rách chảy, rừng trúc thâm u, những gốc cây đỗ quyên cao nghều thả xuống cả thảm hoa rực rỡ và êm ái, qua những con dốc liên tiếp vắt kiệt sức người đi… và qua đủ mọi cung bậc cảm xúc suốt chặng hành trình…`,
+    notice:
+      'Putaleng là cung trekking khó và dài, được mệnh danh là “nóc nhà thứ hai” của miền Bắc sau Fansipan. Hành trình khoảng 28km qua rừng rậm nguyên sinh, suối, dốc cao và nhiều đoạn đá trơn. Đỉnh cao gần 3.050m, là một trong ba ngọn núi cao nhất Việt Nam. Phù hợp với trekker có kinh nghiệm, thể lực tốt và tinh thần bền bỉ. Cảnh quan kỳ vĩ, nhiều hoa đỗ quyên vào tháng 3–4, nhưng cung đường thử thách không dành cho người mới. Chuẩn bị kỹ về thể lực, giày leo núi và tinh thần là điều bắt buộc.',
     image: '/assets/tours/putaleng/2.png'
   },
   schedule: {

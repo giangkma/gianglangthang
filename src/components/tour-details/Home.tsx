@@ -38,7 +38,7 @@ export const Home = ({ name }: IProps) => {
             {data.home.description}
           </p>
 
-          <div className="mt-4 relative sm:mt-6 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full transition-all duration-300 shadow-xl">
+          <div className="mt-4 relative sm:mt-6 bg-primary font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-full transition-all duration-300 shadow-xl">
             <a href="tel:0986202220">Đăng ký ngay: 0986.20.22.20</a>
           </div>
           <p className="mt-3 sm:mt-4 text-[10px] sm:text-xs md:text-sm opacity-90 drop-shadow-sm">

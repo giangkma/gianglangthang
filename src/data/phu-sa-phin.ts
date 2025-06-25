@@ -20,6 +20,8 @@ Ngọn núi này được dân mê xê dịch ví như một huyền thoại, b�
 <br />
 Đặc biệt là đoạn đường lên lán nghỉ đêm với “sống lưng khủng long” chênh vênh giữa bốn bề núi rừng mang thương hiệu của ngọn núi này.
 `,
+    notice:
+      'Phu Sa Phìn - Hang Chú là cung trekking có độ khó vừa phải, ngày đầu leo 4km là tới đỉnh, ngày 2 sẽ đi về để chinh phục Sống Lưng Khủng Long kì vĩ. Cung đường không quá dài nhưng có nhiều đoạn dốc liên tục, phù hợp với người đã có sức bền hoặc từng trekking. Phu Sa Phìn đẹp quanh năm, đặc biệt vào mùa săn mây. Cần chuẩn bị thể lực cơ bản, giày tốt và tinh thần thoải mái. Đây là lựa chọn lý tưởng nếu bạn muốn một cung vừa phải nhưng cảnh đẹp đặc sắc.',
     image: '/assets/tours/phu-sa-phin/2.png'
   },
   schedule: {

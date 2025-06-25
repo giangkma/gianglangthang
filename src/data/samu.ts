@@ -20,6 +20,8 @@ Bước đến nơi đây, bạn sẽ ngỡ như lạc vào xứ sở thần ti�
 Trekking Samu đặc biệt so với nhiều những cung đường trekking núi cao miền Bắc bởi bạn sẽ thực sự đến với rừng già tự nhiên, thảm thực vật cực kỳ phong phú chứ không phải lối mòn đất trống đồi trọc. 
 <br />
 Cũng chính vì điều đó, đỉnh núi cao 2.756m này thời gian gần đây đang trở nên nổi tiếng và được cực kỳ nhiều người yêu thích.`,
+    notice:
+      'Samu là cung trekking mới nổi, hướng leo Xím Vàng - Làng Chếu dài khoảng 23km. Cung đường không quá khó nhưng khá dài, chủ yếu đi xuyên rừng, băng qua rừng rêu, nếu có mưa thì rất lầy lội và ma mị. Phù hợp với người đã có thể lực cơ bản, có kinh nghiệm trekking và thích trải nghiệm thiên nhiên hoang sơ, ít dấu chân du lịch. Cần chuẩn bị kỹ về thể lực, giày chống trơn hoặc ủng.',
     image: '/assets/tours/samu/2.png'
   },
   schedule: {

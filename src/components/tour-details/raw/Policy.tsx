@@ -7,7 +7,7 @@ export const Policy = () => {
       className="bg-green-50 sm:py-10 py-6 px-6 sm:px-10 md:px-16 lg:px-24"
     >
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl sm:text-4xl font-extrabold text-center text-green-900 sm:mb-12 mb-6 uppercase tracking-wider">
+        <h2 className="title-section">
           Chính sách <br />
           <span className="text-red-600">hoàn & huỷ</span> tour
         </h2>
@@ -53,7 +53,7 @@ export const Policy = () => {
               <h3 className="text-xl font-bold text-blue-700 mb-4 flex items-center">
                 <span className="text-2xl mr-2">⭐</span> Điều kiện tour
               </h3>
-              <ul className="text-gray-700 text-sm sm:text-base list-disc list-inside space-y-2">
+              <ul className="text-gray-700 text-sm sm:text-base list-disc list-inside space-y-2 text-justify">
                 <li>Tour chạy khi đủ từ 8 khách trở lên</li>
                 <li>
                   Nhóm thường 10–12 người, dẫn dắt bởi 1 leader, 1 tour có thể

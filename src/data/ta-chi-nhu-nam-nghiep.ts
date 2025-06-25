@@ -18,6 +18,8 @@ export const TaChiNhuNamNghiep = {
 <br />
 Đắm chìm vào những bông hoa Sơn Tra nở trắng rừng đủ để bạn quên đi cái mệt. Sơn Tra còn có tên gọi quen thuộc là Táo Mèo, đây là một loài cây đặc trưng, mang lại giá trị kinh tế cho bà con ở các tỉnh Tây Bắc. Trước đây, cây thường mọc tự nhiên ở rừng, sau được người dân đưa về trồng khắp nơi trong bản.
 `,
+    notice:
+      'Cung Tà Chì Nhù đi từ Nậm Nghệp là tuyến trekking mới, đi qua bản Nậm Nghiệp - bản làng người đồng bào Mông cao nhất Việt Nam, thời điểm thích hợp để đi cung này là tháng 3 - mùa hoa Sơn Tra trắng rực cả đồi. Cảnh quan đa dạng: rừng già, đồi cỏ, suối lớn, phù hợp với người mới leo.',
     image: '/assets/tours/ta-chi-nhu-nam-nghiep/2.png'
   },
   schedule: {

@@ -25,8 +25,8 @@ export const Header = () => {
           className="h-10 inline-block mr-2 cursor-pointer"
         />
         <nav className="flex gap-6 text-gray-700 font-medium">
-          <a href="#tours">Tour Trekking</a>
-          <a href="#charity">Quỹ Từ Thiện</a>
+          <a href="#tours">🗻 Tour Trekking</a>
+          <a href="#charity">❤️ Quỹ Từ Thiện</a>
         </nav>
       </div>
     </header>

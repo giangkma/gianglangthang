@@ -18,6 +18,8 @@ Ky Quan San có địa hình đa dạng từ đồi trọc, rừng tre nứa, r�
     <br />
 Nổi bật nhất, và tạo nên thương hiệu cho Ky Quan San chính là bình minh trên biển mây siêu đẹp tại Đồi Muối, ở độ cao 2100m, cũng chính là điểm hạ trại của hành trình. Cảm giác đứng trên đỉnh Núi Muối, bất ngờ và mãn nhãn thực sự khi trọn vẹn ánh mắt là một thiên đường mây dưới nền trời xanh biếc. 
 `,
+    notice:
+      '3 ngày với 35km tổng cung, thảm thực vật cực kì đẹp và đa dạng nhất Tây Bắc, nếu chia ra thì mỗi ngày trekk khoảng 10km, độ khó tương đối, nếu bạn nào chưa leo bao giờ mà có sức khỏe tốt thì vẫn có thể tham gia được. Nhưng mình khuyên là nên bắt đầu với cung leo 2 ngày trước để làm quen đã nha!',
     image: '/assets/tours/ky-quan-san/2.png'
   },
   schedule: {

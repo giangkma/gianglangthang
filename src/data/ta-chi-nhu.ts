@@ -19,6 +19,8 @@ export const TaChiNhu = {
 
 Điểm nhấn đặc biệt nhất tại đây có lẽ là cánh đồng hoa tím rạng rỡ dưới màn mây vào cuối thu. Không khó để thấy những dãy núi hùng vĩ được phủ một sắc tím tinh tú, mang hương hoa thơm dịu, xung quanh là đàn dê, đàn ngựa của các hộ dân bản địa người Mông chăn thả. Tất cả đều khiến bạn ngỡ ngàng như bước ra từ một bức tranh thiên nhiên thơ mộng đầy tính cổ tích.
 `,
+    notice:
+      'Tà Chì Nhù được mệnh danh là “thiên đường săn mây” với biển mây dày đặc bao quanh đỉnh 360 độ và ánh hoàng hôn đẹp mê hồn. Dù là núi cao gần 3.000m, cung đường trekking lại không quá khó (chủ yếu là dốc thoai thoải liên tục nên leo khá mệt) phù hợp với người có sức khỏe tốt và đam mê chụp ảnh thiên nhiên. Địa hình chủ yếu là đồi trọc, đường đất và dốc dài, ít rừng rậm nên dễ đi hơn các cung khác. Thời gian trekking thường là 2 ngày 1 đêm. Cực kỳ lý tưởng cho người mới muốn thử sức ở độ cao lớn.',
     image: '/assets/tours/ta-chi-nhu/2.png'
   },
   schedule: {

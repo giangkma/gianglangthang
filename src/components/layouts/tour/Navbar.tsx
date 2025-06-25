@@ -26,7 +26,7 @@ export const Navbar = () => {
     <div ref={menuRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-green-600 hover:bg-green-700 text-white p-3 rounded-full shadow-md transition-all duration-300 flex flex-col justify-center items-center"
+        className="bg-primary p-3 rounded-full shadow-md transition-all duration-300 flex flex-col justify-center items-center"
       >
         <span
           className={`block w-5 h-0.5 bg-white mb-1 transform transition duration-300 ${

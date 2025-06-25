@@ -30,7 +30,9 @@ export const LaoThan = {
             Nếu bạn muốn tìm một chuyến trekking khởi đầu nhẹ nhàng thì Lảo Thẩn
             là lựa chọn hợp lý, cung đường nhẹ nhàng cho người mới bắt đầu, trẻ
             em cũng có thể tham gia.`,
-    image: '/assets/tours/lao-than/2.png'
+    image: '/assets/tours/lao-than/2.png',
+    notice:
+      'Lảo Thẩn là một cung trekking không khó, rất phù hợp với người mới, chưa có kinh nghiệm trekking. Có tỉ lệ săn mây cao nên Lảo Thẩn hiện đang là một trong những cung trekking được yêu thích nhất tại Tây Bắc. Dù dễ nhưng bạn vẫn cần có sức khỏe tốt, không mắc các bệnh về tim mạch, huyết áp. Nếu có vấn đề về sức khỏe, hãy tham khảo ý kiến bác sĩ trước khi tham gia.'
   },
   schedule: {
     title: 'Lịch trình 2 ngày 2 đêm – Chinh phục Lảo Thẩn',

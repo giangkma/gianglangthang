@@ -18,6 +18,7 @@ Quãng đường bao quanh sườn núi là những khu rừng nguyên sinh có 
     <br />
     <br />
 Để leo đến đỉnh Ngũ Chỉ Sơn ở Sapa ước tính quãng đường khoảng 12km, chủ yếu là đường mòn xuyên qua những cánh rừng nguyên sinh hay men theo những núi đá cao nhấp nhô mây mù bao phủ quanh năm.`,
+    notice: `Ngũ Chỉ Sơn là một trong những cung trekking khó và thử thách nhất ở miền Bắc. Địa hình dốc đứng, nhiều đoạn phải leo đá, bám rễ cây hoặc bò dốc khiến hành trình đòi hỏi thể lực và kỹ thuật. Đổi lại, bạn sẽ được chiêm ngưỡng cảnh quan độc đáo với 5 đỉnh núi xếp như bàn tay giữa biển mây. Ngũ Chỉ Sơn chỉ phù hợp với trekker có kinh nghiệm, sức khoẻ tốt và tinh thần thép. Không khuyến khích người mới hoặc sức yếu thử sức với cung này.`,
     image: '/assets/tours/ngu-chi-son/2.png'
   },
   schedule: {

@@ -18,6 +18,8 @@ export const NhiuCoSan = {
     <br />
 Đặc biệt, có thể coi Thác Ong Chúa là biểu tượng của Nhìu Cồ San. Từ trên vách núi cao hàng trăm mét, dòng nước trắng xóa đổ xuống giống như dải lụa khổng lồ. Vào những đợt gió mùa lạnh giá, Nhìu Cồ San thường chìm trong băng giá. Bạn có thể bắt gặp hình ảnh cây lá “hóa thủy tinh” trong khu rừng đầy mê hoặc.
 `,
+    notice:
+      '⚠️ Lưu ý: Để đảm bảo an toàn, bạn nên có sức khỏe tốt, không mắc các bệnh về tim mạch, huyết áp. Nếu có vấn đề về sức khỏe, hãy tham khảo ý kiến bác sĩ trước khi tham gia.',
     image: '/assets/tours/nhiu-co-san/2.png'
   },
   schedule: {

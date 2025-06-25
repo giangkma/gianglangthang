@@ -16,11 +16,9 @@ export const Cost = ({ name }: IProps) => {
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 sm:gap-12 gap-4 items-center">
         {/* Chi phí tour */}
-        <div className="bg-white sm:p-8 p-6 rounded-3xl shadow-2xl border-l-8 border-red-500">
-          <h2 className="text-2xl sm:text-4xl font-extrabold text-green-900 sm:mb-6 mb-4 uppercase tracking-wider text-center">
-            Chi phí toàn bộ chuyến đi
-          </h2>
-          <p className="lg:text-5xl text-4xl font-black text-red-600 sm:mb-8 mb-4 drop-shadow-md">
+        <div className="bg-white sm:p-8 p-6 rounded-3xl shadow-2xl border-l-8 border-orange-500">
+          <h2 className="title-section">Chi phí toàn bộ chuyến đi</h2>
+          <p className="lg:text-5xl text-4xl font-black color-primary sm:mb-8 mb-4 drop-shadow-md">
             {formatCurrency(data.cost.value)}
           </p>
 
@@ -28,7 +26,7 @@ export const Cost = ({ name }: IProps) => {
             <li>{data.cost.description}</li>
             <li>
               🏦 CK cú pháp:{' '}
-              <span className="font-semibold text-rose-700">
+              <span className="font-semibold color-primary">
                 hoten_tentour_ngay
               </span>
             </li>

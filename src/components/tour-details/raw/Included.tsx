@@ -84,9 +84,7 @@ export const Included = ({ type, name }: IProps) => {
       className="bg-white py-8 sm:py-20 px-6 sm:px-10 md:px-16 lg:px-24"
     >
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl sm:text-4xl font-extrabold text-green-900 sm:mb-12 mb-6 text-center uppercase tracking-wider">
-          Lưu ý về chi phí khi đặt tour bên GLT
-        </h2>
+        <h2 className="title-section">Lưu ý về chi phí khi đặt tour bên GLT</h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 sm:gap-10 gap-5">
           {data[type].body.map((option, index) => (

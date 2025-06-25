@@ -7,30 +7,31 @@ export const Charity = () => {
       id="charity"
       className="bg-green-50 py-10 px-6 sm:px-10 md:px-16 lg:px-24"
     >
-      <h2 className="text-2xl sm:text-4xl font-extrabold text-green-800 mb-6 uppercase tracking-wider text-center">
+      <h2 className="title-section">
         Kết hợp
         <br />
-        <span className="text-orange-600">trekking & từ thiện</span>
+        <span className="color-primary">trekking & từ thiện</span>
       </h2>
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Text content */}
         <div>
-          <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+          <p className="text-gray-700 text-justify text-base sm:text-lg leading-relaxed">
             Trong mỗi chuyến đi,{' '}
             <span className="text-green-700 font-semibold">
               Giang Lang Thang
             </span>{' '}
-            luôn dành tâm huyết để kết hợp hoạt động thiện nguyện.
+            luôn dành tâm&nbsp;huyết để kết&nbsp;hợp hoạt&nbsp;động thiện
+            &nbsp;nguyện.
             <br />
-            Mỗi khách tham gia tour sẽ đóng góp{' '}
+            Mỗi khách tham gia tour sẽ đóng&nbsp;góp{' '}
             <span className="text-orange-600 font-bold">50.000đ</span> vào quỹ,
-            góp phần mang đến{' '}
-            <span className="text-red-600 font-bold">giá trị thật sự</span> cho
-            cộng đồng vùng cao.
+            góp&nbsp;phần mang&nbsp;đến{' '}
+            <span className="text-red-600 font-bold">giá&nbsp;trị thật sự</span>{' '}
+            cho bà&nbsp;con và các em&nbsp;nhỏ vùng&nbsp;cao hẻo&nbsp;lánh.
             <br />
-            Giang cam kết mọi khoản đóng góp đều được sử dụng{' '}
+            Giang cam&nbsp;kết mọi khoản đóng&nbsp;góp đều được sử dụng{' '}
             <span className="font-semibold text-green-700">
-              công khai, rõ ràng và minh bạch
+              công&nbsp;khai, rõ&nbsp;ràng, minh&nbsp;bạch và hiệu&nbsp;quả !
             </span>
             .
           </p>

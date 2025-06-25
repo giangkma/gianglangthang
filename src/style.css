@@ -1,3 +1,26 @@
+@tailwind utilities;
+@tailwind components;
+@tailwind base;
+@layer utilities {
+  .title-section {
+    @apply text-2xl sm:text-3xl font-bold text-green-700 mb-8 text-center uppercase;
+  }
+
+  .bg-primary {
+    @apply bg-orange-600 hover:bg-orange-700 text-white;
+  }
+
+  .color-primary {
+    @apply text-orange-600 hover:text-orange-700;
+  }
+}
+/* globals.css hoặc index.css */
+.masonry-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 2px;
@@ -34,3 +57,4 @@ input[type='number'] {
 .ant-table-cell {
   padding: 1rem 0.2rem !important;
 }
+

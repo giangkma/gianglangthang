@@ -11,14 +11,10 @@ export const NavTab = () => {
     { href: '#home', label: '🏠 Tổng quan' },
     { href: '#about', label: '🗻 Giới thiệu' },
     { href: '#schedule', label: '📅 Lịch trình' },
-    { href: '#prepare', label: '🎒 Chuẩn bị' },
-    { href: '#cost', label: '💰 Chi phí' },
-    { href: '#included', label: '📦 Bao gồm' },
-    { href: '#policy', label: '📄 Chính sách' },
+    { href: '#notice', label: '❌ Lưu ý' },
     { href: '#charity', label: '❤️ Thiện nguyện' }
   ]
 
-  // Ref cho từng tab
   const tabRefs = useRef<Record<string, HTMLAnchorElement | null>>({})
 
   useEffect(() => {

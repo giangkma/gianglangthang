@@ -51,7 +51,7 @@ export const Prepare = ({ type }: IProps) => {
       className="bg-gradient-to-br from-green-50 to-white w-full py-10 sm:py-16 px-4 sm:px-6 md:px-10 lg:px-20"
     >
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl sm:text-4xl font-extrabold text-green-800 mb-4 sm:mb-12 text-center uppercase tracking-wider">
+        <h2 className="title-section">
           Bạn cần chuẩn bị gì khi đi leo núi cùng Giang?
         </h2>
 

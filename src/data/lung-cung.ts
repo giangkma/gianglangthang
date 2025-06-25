@@ -19,6 +19,8 @@ export const LungCung = {
       <br />
 Còn đỉnh Lùng Cúng gây choáng ngợp với góc nhìn tứ phương, thoáng đãng và rất dễ gặp được biển mây. Trên đỉnh núi có những triền đồi rộng to như cả một sân bóng lớn với cỏ lúc nào cũng bạt ngàn trong gió lớn. Tất cả hứa hẹn sẽ mang đến cho bạn một trải nghiệm độc đáo, thú vị không thể nào quên!
 `,
+    notice:
+      'Lùng Cúng đã quá nổi tiếng với mùa lá phong t11,12, nhưng thứ mà kiến mình ấn tượng nhất đó lại là Hoàng Hôn Lùng Cúng, nó đẹp một cách mà không thể tưởng tượng được, nếu có biển mây nữa thì hoàn hảo, tổng cung 15km có những đoạn khá dốc nhưng nhìn chung thì vẫn phù hợp để các bạn mới nhập môn có thể chinh phục được.',
     image: '/assets/tours/lung-cung/2.png'
   },
   schedule: {

@@ -14,11 +14,14 @@ export const Footer = () => {
         {/* Cột 1 */}
         <div className="col-span-3">
           <h3 className="text-2xl font-bold mb-3">Giang Lang Thang</h3>
-          <p className="leading-relaxed text-gray-100">
-            Giang Lang Thang – khám phá thiên nhiên, kết nối cộng đồng. Chúng
-            tôi tổ chức các tour trekking chuyên nghiệp kết hợp hoạt động trao
-            quà, xây trường và hỗ trợ trẻ em vùng cao. Mỗi chuyến đi là một bước
-            chân góp phần lan toả yêu thương đến những nơi còn khó khăn.
+          <p className="leading-relaxed text-gray-100 text-justify">
+            Giang Lang Thang – khám phá thiên&nbsp;nhiên, kết&nbsp;nối
+            cộng&nbsp;đồng. Chúng tôi tổ chức các tour trekking
+            chuyên&nbsp;nghiệp kết&nbsp;hợp hoạt&nbsp;động trao&nbsp;quà,
+            xây&nbsp;trường và hỗ&nbsp;trợ trẻ em vùng cao. Mỗi chuyến&nbsp;đi
+            là một bước&nbsp;chân góp phần lan&nbsp;toả tình&nbsp;yêu
+            &nbsp;thương và giá&nbsp;trị nhân&nbsp;văn đến những bản&nbsp;làng
+            xa&nbsp;xôi.
           </p>
         </div>
         <div className="col-span-1 sm:block hidden" />

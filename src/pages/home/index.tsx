@@ -22,13 +22,14 @@ export const Home = () => {
         <div className="absolute inset-0 bg-black bg-opacity-60" />
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-white text-center px-4">
           <h1 className="text-4xl md:text-6xl font-extrabold drop-shadow-lg">
-            Cùng Giang Lang Thang <br />
-            <span className="text-xl sm:text-3xl font-medium">
-              Biến những chuyến đi, trở thành hành trình ý nghĩa
+            Cùng <span className="">Giang&nbsp;Lang&nbsp;Thang</span> <br />
+            <span className="text-xl sm:text-3xl font-medium block mt-6">
+              Biến những chuyến đi trở thành hành&nbsp;trình&nbsp;ý&nbsp;nghĩa
             </span>
           </h1>
           <p className="mt-4 text-lg md:text-2xl max-w-2xl drop-shadow-md">
-            Nơi kết hợp giữa <b>Du Lịch</b> và <b>Thiện Nguyện</b> <br />
+            Nơi kết hợp giữa <b>Du&nbsp;Lịch</b>&nbsp;và&nbsp;
+            <b>Thiện&nbsp;Nguyện</b> <br />
           </p>
           <button
             onClick={scrollToTour}

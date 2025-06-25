@@ -12,10 +12,10 @@ export const Schedule = ({ name }: IProps) => {
   return (
     <section
       id="schedule"
-      className="bg-[#f2f2ed] w-full sm:py-12 px-4 sm:px-6 md:px-10 lg:px-20"
+      className="bg-[#f2f2ed] w-full sm:py-12 !pt-2 px-4 sm:px-6 md:px-10 lg:px-20"
     >
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl sm:text-3xl font-bold text-green-800 mb-8 text-center uppercase">
+        <h2 className="title-section">
           {data.schedule.title}
           <p className="text-sm text-gray-600 italic mb-2 font-medium">
             ({data.schedule.description})
