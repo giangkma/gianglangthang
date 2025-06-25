@@ -139,7 +139,7 @@ export const CharityTimeline = (): JSX.Element => {
           </div>
         </div>
 
-        <div className="space-y-20">
+        <div className="sm:space-y-20 space-y-8">
           {events.map((event, idx) => (
             <div
               key={idx}

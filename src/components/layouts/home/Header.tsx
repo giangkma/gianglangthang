@@ -24,9 +24,11 @@ export const Header = () => {
           alt="Giang Lang Thang Logo"
           className="h-10 inline-block mr-2 cursor-pointer"
         />
-        <nav className="flex gap-6 text-gray-700 font-medium">
-          <a href="#tours">🗻 Tour Trekking</a>
-          <a href="#charity">❤️ Quỹ Thiện Nguyện</a>
+        <nav className="flex sm:gap-6 gap-2 text-gray-700 text-base sm:text-xs font-medium">
+          <a href="#tours">🗻 Tour&nbsp;Trekking</a>
+          <a className="sm:block hidden" href="#charity">
+            ❤️ Quỹ Thiện&nbsp;Nguyện
+          </a>
         </nav>
       </div>
     </header>

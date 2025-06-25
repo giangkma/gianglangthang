@@ -67,7 +67,9 @@ export const TourNoticeAccordion = ({ type, name }: IProps) => {
       id="notice"
       className="bg-white py-12 px-6 md:px-16 lg:px-24 xl:px-32"
     >
-      <h2 className="title-section">NHỮNG THÔNG TIN CẦN LƯU Ý</h2>
+      <h2 className="title-section">
+        NHỮNG THÔNG&nbsp;TIN CẦN&nbsp;LƯU&nbsp;Ý
+      </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {noticeList.map((item, index) => (
