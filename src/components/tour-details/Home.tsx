@@ -26,7 +26,7 @@ export const Home = ({ name }: IProps) => {
             nơi
           </h2>
           <p className="mt-2 text-xs sm:text-sm md:text-base max-w-xl drop-shadow-md">
-            Kết hợp trekking và từ thiện - cam kết trích
+            Kết hợp trekking và thiện nguyện - cam kết trích
             <span className="text-pink-400 font-semibold"> 50.000đ/khách </span>
             <br />
             cho quỹ thiện nguyện <b>"Hành Trình Yêu Thương"</b>

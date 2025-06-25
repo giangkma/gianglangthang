@@ -26,7 +26,7 @@ export const Header = () => {
         />
         <nav className="flex gap-6 text-gray-700 font-medium">
           <a href="#tours">🗻 Tour Trekking</a>
-          <a href="#charity">❤️ Quỹ Từ Thiện</a>
+          <a href="#charity">❤️ Quỹ Thiện Nguyện</a>
         </nav>
       </div>
     </header>
