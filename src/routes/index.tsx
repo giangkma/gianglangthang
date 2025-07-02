@@ -1,6 +1,7 @@
 import { HomeLayout } from 'components/layouts/home'
 import { TourLayout } from 'components/layouts/tour'
 import { Home } from 'pages/home'
+import { HamLon } from 'pages/tours/summer/ham-lon'
 import { KyQuanSan } from 'pages/tours/trekking/ky-quan-san'
 import { LaoThan } from 'pages/tours/trekking/lao-than'
 import { LungCung } from 'pages/tours/trekking/lung-cung'
@@ -23,6 +24,9 @@ export const RootRoutes = () => {
             <Route path="/" element={<Home />} />
           </Route>
           <Route path="/tours" element={<TourLayout />}>
+            <Route path="/tours/ham-lon" element={<HamLon />} />
+
+            {/*  */}
             <Route path="/tours/lao-than" element={<LaoThan />} />
             <Route path="/tours/samu" element={<Samu />} />
             <Route path="/tours/ngu-chi-son" element={<NguChiSon />} />

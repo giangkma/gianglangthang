@@ -1,4 +1,4 @@
-import { BodyTrekking } from 'components/tour-details/BodyTrekking'
+import { BodyTour } from 'components/tour-details/BodyTour'
 import { NameTour } from 'domain/index'
 import { Helmet } from 'react-helmet-async'
 
@@ -21,7 +21,7 @@ export const NhiuCosan = () => {
         />
         <meta property="og:image" content="/assets/tours/nhiu-co-san/1.png" />
       </Helmet>
-      <BodyTrekking name={NameTour.NHIU_CO_SAN} />
+      <BodyTour name={NameTour.NHIU_CO_SAN} />
     </>
   )
 }

@@ -9,18 +9,19 @@ import { TourNoticeAccordion } from './accordion'
 
 interface IProps {
   name: NameTour
+  type?: TypeTour
 }
 
-export const BodyTrekking = ({ name }: IProps) => {
+export const BodyTour = ({ name, type = TypeTour.TREKKING }: IProps) => {
   return (
     <>
       <Home name={name} />
       <About name={name} />
       <Schedule name={name} />
-      <TourNoticeAccordion type={TypeTour.TREKKING} name={name} />
-      <Charity />
+      <TourNoticeAccordion type={type} name={name} />
       <MoreImages name={name} />
       <TourCarousel />
+      <Charity />
     </>
   )
 }

@@ -15,7 +15,8 @@ const data = {
         '🏅 Huy chương chinh phục đỉnh',
         '🧳 Túi đựng đồ gửi porter',
         '🔥 Miếng dán giữ nhiệt',
-        '💧 Nước lọc đóng chai'
+        '💧 Nước lọc đóng chai',
+        '🧢 Nón tai bèo'
       ]
     },
     images: [
@@ -24,6 +25,30 @@ const data = {
       '/assets/vat-dung/3.png',
       '/assets/vat-dung/4.png'
     ]
+  },
+  summer: {
+    body: {
+      title: '🎁 Giang chuẩn bị cho bạn',
+      items: [
+        '🎒 Balo trekking',
+        '🧢 Nón tai bèo',
+        '💧 Nước suối đóng chai',
+        '🍫 Gậy trekking, găng tay'
+      ]
+    },
+    images: []
+  },
+  hiking: {
+    body: {
+      title: '🎁 Giang chuẩn bị cho bạn',
+      items: [
+        '🎒 Balo trekking',
+        '🧢 Nón tai bèo',
+        '💧 Nước suối đóng chai',
+        '🍫 Gậy trekking, găng tay'
+      ]
+    },
+    images: []
   }
 }
 

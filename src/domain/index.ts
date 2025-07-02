@@ -1,5 +1,7 @@
 export enum TypeTour {
-  TREKKING = 'trekking'
+  TREKKING = 'trekking',
+  SUMMER = 'summer',
+  HIKING = 'hiking'
 }
 
 export interface ICreateBookingSaleBody {
@@ -15,6 +17,10 @@ export const validatePhoneNumber = (phone: string): boolean => {
 }
 
 export enum NameTour {
+  HAM_LON = 'ham-lon',
+  HANG_DE_CHO = 'hang-de-cho',
+  Y_TY = 'y-ty',
+
   LAO_THAN = 'lao-than',
   NHIU_CO_SAN = 'nhiu-co-san',
   LUNG_CUNG = 'lung-cung',

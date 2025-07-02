@@ -10,8 +10,25 @@ const data = {
         '🧥 Áo khoác gió, giữ nhiệt; quần nhanh khô (nên mang 3 bộ, 2 bộ dùng trekk, 1 bộ mặc lúc về)',
         '🔋 Sạc dự phòng (vì trên lán không có điện)',
         '🧼 Đồ vệ sinh cá nhân, dép đi trong lán',
-        '🍫 Đồ ăn vặt, năng lượng',
-        '🧢 Nón tai bèo (nếu trời nắng)'
+        '🍫 Đồ ăn vặt, năng lượng'
+      ]
+    }
+  },
+  summer: {
+    body: {
+      title: '🎒 Bạn cần chuẩn bị',
+      items: [
+        '👟 Giày thể thao tốt, rộng hơn chân 1–2 size',
+        '🍫 Đồ ăn vặt, năng lượng'
+      ]
+    }
+  },
+  hiking: {
+    body: {
+      title: '🎒 Bạn cần chuẩn bị',
+      items: [
+        '👟 Giày thể thao tốt, rộng hơn chân 1–2 size',
+        '🍫 Đồ ăn vặt, năng lượng'
       ]
     }
   }

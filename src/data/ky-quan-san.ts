@@ -61,7 +61,8 @@ Nổi bật nhất, và tạo nên thương hiệu cho Ky Quan San chính là b�
           '🕛 12h: Về tới chân núi, dùng bữa trưa và nghỉ ngơi trên xe.',
           '🕜 13h30: Xe trung chuyển đón đoàn về điểm tập kết ô tô lớn.',
           '🕑 14h: Di chuyển về nhà nghỉ để vệ sinh cá nhân.',
-          '🕓 16h: Lên xe khách về TP. Lào Cai, nghỉ ngơi, ăn tối nhẹ.',
+          '🕓 16h: Lên xe khách về TP. Lào Cai, nghỉ ngơi',
+          '🕡 17h30: Cả đoàn dừng nghỉ ăn tối trước khi về',
           '🕡 18h30: Xe khách khởi hành về lại Hà Nội.',
           '🕚 23h: Về đến Hà Nội, kết thúc hành trình - chia tay trong lưu luyến.'
         ]

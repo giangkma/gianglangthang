@@ -8,7 +8,7 @@ interface IProps {
 }
 
 export const About = ({ name }: IProps) => {
-  const data = DATA[name]
+  const data = DATA[name as keyof typeof DATA]
   const [showFullNotice, setShowFullNotice] = useState(false)
 
   return (

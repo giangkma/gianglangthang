@@ -1,4 +1,4 @@
-import { BodyTrekking } from 'components/tour-details/BodyTrekking'
+import { BodyTour } from 'components/tour-details/BodyTour'
 import { NameTour, TypeTour } from 'domain/index'
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet-async'
@@ -22,7 +22,7 @@ export const LungCung = () => {
         />
         <meta property="og:image" content="/assets/tours/lung-cung/1.jpg" />
       </Helmet>
-      <BodyTrekking name={NameTour.LUNG_CUNG} />
+      <BodyTour name={NameTour.LUNG_CUNG} />
     </>
   )
 }

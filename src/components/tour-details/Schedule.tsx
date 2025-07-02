@@ -1,3 +1,4 @@
+import classNames from 'classnames'
 import { DATA } from 'data'
 import { NameTour } from 'domain/index'
 import React from 'react'
@@ -7,7 +8,9 @@ interface IProps {
 }
 
 export const Schedule = ({ name }: IProps) => {
-  const data = DATA[name]
+  const data = DATA[name as keyof typeof DATA]
+
+  const lengthCol = data.schedule.schedule.length
 
   return (
     <section
@@ -22,7 +25,13 @@ export const Schedule = ({ name }: IProps) => {
           </p>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 sm:gap-8 gap-3">
+        <div
+          className={classNames('grid grid-cols-1 sm:gap-8 gap-3', {
+            'md:grid-cols-3': lengthCol >= 3,
+            'md:grid-cols-2': lengthCol === 2,
+            'md:grid-cols-1': lengthCol === 1
+          })}
+        >
           {data.schedule.schedule.map((item, index) => (
             <div key={index} className="bg-white rounded-xl shadow-md p-5">
               <h3 className="text-xl font-semibold text-green-700 mb-4">

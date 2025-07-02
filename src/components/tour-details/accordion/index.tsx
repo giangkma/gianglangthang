@@ -35,7 +35,7 @@ const noticeList = [
     content: Policy
   },
   {
-    title: '👶 Lưu ý giá trẻ em',
+    title: '👶 Lưu ý giá trẻ em và ưu đãi',
     content: Children
   },
   {

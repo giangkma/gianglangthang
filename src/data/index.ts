@@ -9,6 +9,7 @@ import { Samu } from './samu'
 import { NguChiSon } from './ngu-chi-son'
 import { Putaleng } from './putaleng'
 import { TaChiNhuNamNghiep } from './ta-chi-nhu-nam-nghiep'
+import { HamLon } from './ham-lon'
 
 export const DATA = {
   [NameTour.LAO_THAN]: LaoThan,
@@ -20,10 +21,22 @@ export const DATA = {
   [NameTour.SAMU]: Samu,
   [NameTour.NGU_CHI_SON]: NguChiSon,
   [NameTour.PUTALENG]: Putaleng,
-  [NameTour.TA_CHI_NHU_NAM_NGHIEP]: TaChiNhuNamNghiep
+  [NameTour.TA_CHI_NHU_NAM_NGHIEP]: TaChiNhuNamNghiep,
+  [NameTour.HAM_LON]: HamLon
 }
 
 export const LIST_TOURS = [
+  {
+    title: 'Hàm Lợn 462m',
+    image: '/assets/tours/ham-lon/1.png',
+    label: 'Tour Siêu Hot',
+    duration: 'Trong ngày',
+    level: 'Độ khó: 3/10',
+    price: DATA['ham-lon'].cost.value,
+    description:
+      'Hàm Lợn là lựa chọn lý tưởng cho người mới bắt đầu trekking, chỉ cách Hà Nội 40km với cảnh quan tuyệt đẹp.',
+    link: '/tours/ham-lon'
+  },
   {
     title: 'Lảo Thẩn 2860m',
     image: '/assets/tours/lao-than/1.png',

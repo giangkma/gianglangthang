@@ -7,7 +7,7 @@ interface IProps {
 }
 
 export const Home = ({ name }: IProps) => {
-  const data = DATA[name]
+  const data = DATA[name as keyof typeof DATA]
   return (
     <div>
       <section

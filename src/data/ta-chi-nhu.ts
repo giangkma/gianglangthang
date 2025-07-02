@@ -56,7 +56,8 @@ export const TaChiNhu = {
           '🕛 12h: Nghỉ trưa tại điểm dừng giữa đường.',
           '🕒 15h: Về đến chân núi, xe đón về homestay tắm rửa, nghỉ ngơi.',
           '🕠 17h30: Bắt đầu lên xe quay về Hà Nội.',
-          '🕘 22h: Về tới Hà Nội, kết thúc hành trình đáng nhớ.'
+          '🕡 18h30: Cả đoàn dừng nghỉ ăn tối trước khi về tại Nghĩa Lộ',
+          '🕘 23h: Về tới Hà Nội, kết thúc hành trình đáng nhớ.'
         ]
       }
     ]

@@ -53,8 +53,8 @@ Quãng đường bao quanh sườn núi là những khu rừng nguyên sinh có 
           '🕣 8h30: Xuống núi, về lán thu dọn đồ đạc.',
           '🕛 12h: Nghỉ ăn trưa giữa hành trình về lại thế giới phồn hoa.',
           '🕔 16h: Về tới homestay, tắm rửa, nghỉ ngơi.',
-          '🕕 17h: Dạo quanh Sapa và tổ chức tổng kết hành trình.',
-          '🕗 18h: Lên xe về Hà Nội.',
+          '🕕 17h: Dạo quanh Sapa và ăn tối tổng kết hành trình.',
+          '🕗 19h: Lên xe về Hà Nội.',
           '🕚 23h: Về đến điểm đón Hà Nội, chia tay nhau trong lưu luyến.'
         ]
       }

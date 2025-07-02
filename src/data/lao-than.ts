@@ -64,9 +64,8 @@ export const LaoThan = {
           '🕡 6h30 – 7h: Check-in đỉnh Lảo Thẩn ở độ cao 2860m.',
           '🕣 8h30: Bắt đầu xuống núi.',
           '🕛 12h: Nghỉ ngơi và dùng bữa trưa tại chân núi.',
-          '🕐 13h: Thu dọn đồ đạc, chuẩn bị rời Lào Cai.',
-          '🕞 15h30: Trở lại homestay, tắm rửa, nghỉ ngơi.',
-          '🕟 16h30: Lên xe về lại Hà Nội.',
+          '🕐 13h30: Thu dọn đồ đạc, chuẩn bị trở lại homestay, tắm rửa, nghỉ ngơi.',
+          '🕡 17h30: Cả đoàn dừng nghỉ ăn tối trước khi về',
           '🕚 23h: Về đến Hà Nội, kết thúc hành trình ý nghĩa.'
         ]
       }

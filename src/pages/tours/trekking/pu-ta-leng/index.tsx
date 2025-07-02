@@ -1,4 +1,4 @@
-import { BodyTrekking } from 'components/tour-details/BodyTrekking'
+import { BodyTour } from 'components/tour-details/BodyTour'
 import { NameTour } from 'domain/index'
 import { Helmet } from 'react-helmet-async'
 
@@ -18,7 +18,7 @@ export const Putaleng = () => {
         />
         <meta property="og:image" content="/assets/tours/putaleng/1.png" />
       </Helmet>
-      <BodyTrekking name={NameTour.PUTALENG} />
+      <BodyTour name={NameTour.PUTALENG} />
     </>
   )
 }

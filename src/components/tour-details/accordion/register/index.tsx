@@ -39,8 +39,8 @@ export const Register = () => {
           số lượng người tham gia.
         </li>
         <li>
-          Thanh toán <strong>đặt cọc 50%</strong> để giữ chỗ. Phần còn lại sẽ
-          được thanh toán sau khi tour hoàn thành.
+          Thanh toán <strong>đặt cọc 50%-100% (tuỳ tour)</strong> để giữ chỗ.
+          Phần còn lại sẽ được thanh toán sau khi tour hoàn thành.
         </li>
         <li>
           Sau khi hoàn tất đăng ký, bạn sẽ nhận được{' '}

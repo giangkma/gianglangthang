@@ -59,7 +59,7 @@ export const NhiuCoSan = {
           '14h30: Lên xe ôm về homestay',
           '15h30: Về homestay tắm và vệ sinh cá nhân trước khi lên xe về Hà Nội',
           '17h: Ăn tối tại tp Lào Cai tổng kết',
-          '22h00: Về tới điểm đón Hà Nội, chia tay nhau'
+          '23h00: Về tới điểm đón Hà Nội, chia tay nhau'
         ]
       }
     ]
