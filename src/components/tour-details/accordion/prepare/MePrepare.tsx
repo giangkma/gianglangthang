@@ -31,7 +31,6 @@ const data = {
       title: '🎁 Giang chuẩn bị cho bạn',
       items: [
         '🎒 Balo trekking',
-        '🧢 Nón tai bèo',
         '💧 Nước suối đóng chai',
         '🍫 Gậy trekking, găng tay'
       ]
