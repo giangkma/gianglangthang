@@ -13,7 +13,7 @@ export const About = ({ name }: IProps) => {
 
   return (
     <div className="bg-[#f2f2ed]">
-      <section id="about" className="py-10 container mx-auto">
+      <section id="about" className="py-10 container mx-auto sm:px-12 px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 items-start">
           {/* Left - Nội dung giới thiệu */}
           <div className="flex items-center lg:col-span-2">

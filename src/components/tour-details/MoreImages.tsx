@@ -19,7 +19,7 @@ export const MoreImages = ({ name }: IProps): JSX.Element => {
       id="images"
       className="bg-gradient-to-b from-green-50 to-white py-6 "
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto sm:px-12 px-6">
         <div className="text-center mb-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-green-700 flex items-center justify-center gap-2">
             <PictureOutlined className="text-xl sm:text-2xl" />

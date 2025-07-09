@@ -114,7 +114,7 @@ export const CharityTimeline = (): JSX.Element => {
   )
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto sm:px-12 px-6">
       <section id="charity" className="bg-white sm:py-12 py-6">
         <div className="">
           <div>

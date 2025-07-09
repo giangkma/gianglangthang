@@ -14,7 +14,7 @@ export const Schedule = ({ name }: IProps) => {
 
   return (
     <section id="schedule" className="bg-[#f2f2ed] w-full sm:py-12 !pt-2">
-      <div className="mx-auto container">
+      <div className="mx-auto container sm:px-12 px-6">
         <h2 className="title-section">
           {data.schedule.title}
           <p className="text-sm text-gray-600 italic mb-2 font-medium">

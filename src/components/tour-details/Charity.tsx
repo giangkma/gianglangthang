@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Charity = () => {
   return (
-    <section id="charity" className="bg-green-50 py-10">
+    <section id="charity" className="bg-green-50 py-10 sm:px-12 px-6">
       <h2 className="title-section">
         Kết hợp
         <br />

@@ -63,7 +63,10 @@ interface IProps {
 
 export const TourNoticeAccordion = ({ type, name }: IProps) => {
   return (
-    <section id="notice" className="bg-white py-12 container mx-auto">
+    <section
+      id="notice"
+      className="bg-white py-12 container sm:px-12 px-6 mx-auto"
+    >
       <h2 className="title-section">
         NHỮNG THÔNG&nbsp;TIN CẦN&nbsp;LƯU&nbsp;Ý
       </h2>

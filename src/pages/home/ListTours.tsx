@@ -6,7 +6,7 @@ import { formatCurrency } from 'domain/index'
 export const ListTours = () => {
   return (
     <div className="bg-gray-50 py-12">
-      <section id="tours" className=" container mx-auto">
+      <section id="tours" className=" container sm:px-12 px-6 mx-auto">
         <h2 className="text-3xl font-bold text-center text-green-800 mb-10">
           NHỮNG TOUR TREKKING NỔI BẬT
           <br />
