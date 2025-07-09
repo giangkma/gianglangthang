@@ -13,7 +13,7 @@ const DATA = {
           tùy thuộc thể lực thực tế của đoàn.`
     ]
   },
-  summer: {
+  hamlon: {
     items: [
       'Tour khởi hành khi có đủ <strong>tối thiểu 12 khách</strong>.',
       `Mỗi tour thường từ <strong>30–35 khách</strong>, được dẫn dắt bởi ít
@@ -24,8 +24,29 @@ const DATA = {
           tùy thuộc thể lực thực tế của đoàn.`
     ]
   },
+  tamdao: {
+    items: [
+      'Tour khởi hành khi có đủ <strong>tối thiểu 8 khách</strong>.',
+      `Mỗi tour thường từ <strong>10–12 khách</strong>, được dẫn dắt bởi ít
+          nhất 1 leader. Trường hợp đông (15–20 khách) sẽ có thêm leader hoặc
+          porter để đảm bảo tỷ lệ 1 người có kinh nghiệm hỗ trợ
+          <strong>2–3 khách</strong>.`,
+      `Lịch trình có thể thay đổi trong điều kiện
+          <strong>thời tiết xấu</strong>, yếu tố <strong>an toàn</strong>, hoặc
+          tùy thuộc thể lực thực tế của đoàn.`
+    ]
+  },
   hiking: {
-    items: []
+    items: [
+      'Tour khởi hành khi có đủ <strong>tối thiểu 8 khách</strong>.',
+      `Mỗi tour thường từ <strong>10–12 khách</strong>, được dẫn dắt bởi ít
+          nhất 1 leader. Trường hợp đông (15–20 khách) sẽ có thêm leader hoặc
+          porter để đảm bảo tỷ lệ 1 người có kinh nghiệm hỗ trợ
+          <strong>2–3 khách</strong>.`,
+      `Lịch trình có thể thay đổi trong điều kiện
+          <strong>thời tiết xấu</strong>, yếu tố <strong>an toàn</strong>, hoặc
+          tùy thuộc thể lực thực tế của đoàn.`
+    ]
   }
 }
 

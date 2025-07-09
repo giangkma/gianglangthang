@@ -69,6 +69,8 @@ Nổi bật nhất, và tạo nên thương hiệu cho Ky Quan San chính là b�
       }
     ]
   },
+  isHaveCharity: true,
+
   cost: {
     value: 3500000,
     description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',

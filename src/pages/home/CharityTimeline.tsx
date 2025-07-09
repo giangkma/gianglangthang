@@ -1,7 +1,8 @@
 import { Image } from 'antd'
-import { APP_CONST, formatCurrency } from 'domain/index'
+import { APP_CONST, breakpointColumnsObj, formatCurrency } from 'domain/index'
 import { useCountUp } from 'hooks/useCountUp'
 import React, { useEffect, useRef, useState } from 'react'
+import Masonry from 'react-masonry-css'
 
 interface EventItem {
   date: string
@@ -86,6 +87,22 @@ Khi nhìn thấy sự hạnh phúc và hân hoan hiện lên trên gương mặt
     ],
     result:
       'Trao tặng gần 100 suất quà áo khoác, tất, mũ, 100 tượng tô màu...và nhiều phần quà ý nghĩa khác kèm theo chi phí sơn sửa lại điểm trường tổng giá trị 40 triệu VNĐ.'
+  },
+  {
+    date: '06/2025',
+    title: '🩺 Hành Trình Yêu Thương 05 - Trạm&nbsp;Đề&nbsp;Chơ',
+    description: `Lần này, “Hành trình yêu thương 5” dừng chân tại Yên Bái (bản Đề Chơ - Trạm Tấu). Hai ngày dù có mưa có nắng. Cả đoàn đã cùng nhau đi, cùng mang đến những món quà, những bộ quần áo và tổ chức cho bà con và các em nhỏ nơi đây những hoạt động thật thú vị. 
+    <br/>
+    <br/>
+🍃 Từng bộ quần áo, hộp bánh hay cuốn truyện đều không chỉ là vật phẩm mà là tấm lòng của tất cả mọi người. Cảm ơn các bạn đã chung tay góp sức để những món quà này đến được tận tay bà con vùng cao. Dù không thể đồng hành cùng tất cả mọi người nhưng từng tin nhắn, từng comment, từng sự chia sẻ cũng đã tiếp thêm rất nhiều năng lượng cho đoàn.`,
+    image: [
+      '/assets/htyt/5/1.png',
+      '/assets/htyt/5/2.png',
+      '/assets/htyt/5/3.png',
+      '/assets/htyt/5/4.png'
+    ],
+    result:
+      'Trao tặng gần 25 suất quà balo, sữa, vở bút tô màu, mũ, 60 tượng tô màu...và nhiều phần quà ý nghĩa khác kèm theo chi phí sơn sửa lại điểm trường tổng giá trị 17 triệu VNĐ.'
   }
 ]
 
@@ -97,11 +114,8 @@ export const CharityTimeline = (): JSX.Element => {
   )
 
   return (
-    <>
-      <section
-        id="charity"
-        className="bg-white sm:py-16 py-8 px-4 md:px-8 lg:px-16"
-      >
+    <div className="container mx-auto">
+      <section id="charity" className="bg-white sm:py-12 py-6">
         <div className="">
           <div>
             <h2 className="text-3xl font-bold text-center text-green-800 mb-4">
@@ -179,6 +193,48 @@ export const CharityTimeline = (): JSX.Element => {
         </div>
       </section>
 
+      <section className="">
+        <div className="sm:pb-12 pb-6">
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-4">
+            Hành Trình Yêu Thương - Những Kỷ Niệm Đáng Nhớ
+          </h2>
+          <p className="text-center text-gray-600 max-w-2xl mx-auto mb-6">
+            Ngoài tổ chức các chương trình thiện nguyện HTYT 1-2 ngày, Giang
+            Lang Thang còn thực hiện hàng trăm những chuyến đi phát sữa cùng
+            khách hàng đi tour. Với mong muốn lan toả yêu thương, mang tới cho
+            các em nhỏ tại các điểm trường khó khăn những phần quà thiết thực và
+            ý nghĩa, tạo cơ hội cho các khách hàng có thể trực tiếp tham gia các
+            hoạt động thiện nguyện, cùng nhau trải nghiệm những khoảnh khắc đáng
+            nhớ và ý nghĩa trong hành trình khám phá thiên nhiên này ! Kinh phí
+            được trích ra từ quỹ.
+          </p>
+          <div className="max-h-[400px] overflow-y-auto pr-2 scroll-smooth custom-scrollbar">
+            <Masonry
+              breakpointCols={breakpointColumnsObj}
+              className="flex sm:gap-6 gap-3"
+              columnClassName="masonry-column flex flex-col"
+            >
+              {Array.from({ length: 29 }, (_, index) => (
+                <div key={index} className="">
+                  <Image
+                    src={`/assets/htyt/other/${index + 1}.png`}
+                    alt={`Tour image ${index + 1}`}
+                    className="w-full object-cover hover:shadow-lg transition-shadow duration-300"
+                    preview={{
+                      mask: (
+                        <span className="text-white font-semibold">
+                          Xem ảnh
+                        </span>
+                      )
+                    }}
+                  />
+                </div>
+              ))}
+            </Masonry>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gradient-to-b from-pink-50 to-white sm:py-16 py-10 px-4 md:px-8 lg:px-16">
         <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-2">
           Tổng kết hoạt động gây quỹ từ&nbsp;09/2024&nbsp;đến&nbsp;nay
@@ -213,6 +269,6 @@ export const CharityTimeline = (): JSX.Element => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }

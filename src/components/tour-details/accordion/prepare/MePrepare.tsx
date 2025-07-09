@@ -26,7 +26,7 @@ const data = {
       '/assets/vat-dung/4.png'
     ]
   },
-  summer: {
+  hamlon: {
     body: {
       title: '🎁 Giang chuẩn bị cho bạn',
       items: [
@@ -37,17 +37,32 @@ const data = {
     },
     images: []
   },
+  tamdao: {
+    body: {
+      title: '🎁 Giang chuẩn bị cho bạn',
+      items: [
+        '🎒 Balo trekking',
+        '🌧️ Bộ áo mưa',
+        '💧 Nước suối đóng chai',
+        '🧤 1 đôi găng tay bảo hộ',
+        '🩴 Dép lội suối (tổ ong nghìn lỗ, độ bám rất tốt)'
+      ]
+    },
+    images: ['/assets/vat-dung/3.png']
+  },
   hiking: {
     body: {
       title: '🎁 Giang chuẩn bị cho bạn',
       items: [
         '🎒 Balo trekking',
-        '🧢 Nón tai bèo',
-        '💧 Nước suối đóng chai',
-        '🍫 Gậy trekking, găng tay'
+        '🦯 Gậy trekking chuyên dụng',
+        '🌧️ Bộ áo mưa',
+        '🧤 1 đôi găng tay bảo hộ',
+        '💧 Nước lọc đóng chai',
+        '🧢 Nón tai bèo'
       ]
     },
-    images: []
+    images: ['/assets/vat-dung/2.png', '/assets/vat-dung/3.png']
   }
 }
 

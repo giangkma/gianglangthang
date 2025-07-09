@@ -64,6 +64,8 @@ export const NhiuCoSan = {
       }
     ]
   },
+  isHaveCharity: true,
+
   cost: {
     value: 2600000,
     description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',

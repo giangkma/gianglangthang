@@ -18,7 +18,7 @@ export const Policy = () => {
             <strong className="text-red-500">Không hoàn cọc</strong>
           </p>
           <p>
-            📌 Trường hợp bất khả kháng:{' '}
+            📌 Trường hợp bất khả kháng (do thiên nhiên):{' '}
             <strong className="text-green-700">Hoàn 100%</strong>
           </p>
         </div>

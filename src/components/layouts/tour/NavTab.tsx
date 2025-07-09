@@ -12,6 +12,7 @@ export const NavTab = () => {
     { href: '#about', label: '🗻 Giới thiệu' },
     { href: '#schedule', label: '📅 Lịch trình' },
     { href: '#notice', label: '❌ Lưu ý' },
+    { href: '#images', label: '📸 Ảnh tour' },
     { href: '#charity', label: '❤️ Thiện nguyện' }
   ]
 

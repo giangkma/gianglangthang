@@ -24,12 +24,17 @@ export const Home = ({ name }: IProps) => {
             Cùng <span className="text-orange-400">Giang Lang Thang</span> muôn
             nơi
           </h2>
-          <p className="mt-2 text-xs sm:text-sm md:text-base max-w-xl drop-shadow-md">
-            Kết hợp trekking và thiện nguyện - Cam kết trích
-            <span className="text-pink-400 font-semibold"> 50.000đ/khách </span>
-            <br />
-            vào Quỹ Thiện Nguyện <b>"Hành Trình Yêu Thương"</b>
-          </p>
+          {data.isHaveCharity && (
+            <p className="mt-2 text-xs sm:text-sm md:text-base max-w-xl drop-shadow-md">
+              Kết hợp trekking và thiện nguyện - Cam kết trích
+              <span className="text-pink-400 font-semibold">
+                {' '}
+                50.000đ/khách{' '}
+              </span>
+              <br />
+              vào Quỹ Thiện Nguyện <b>"Hành Trình Yêu Thương"</b>
+            </p>
+          )}
           <h1 className="mt-6 text-3xl sm:text-4xl md:text-6xl font-bold tracking-wide text-green-300 drop-shadow-2xl">
             {data.home.title}
           </h1>

@@ -5,8 +5,8 @@ import { formatCurrency } from 'domain/index'
 
 export const ListTours = () => {
   return (
-    <div>
-      <section id="tours" className="bg-gray-50 py-12 px-6">
+    <div className="bg-gray-50 py-12">
+      <section id="tours" className=" container mx-auto">
         <h2 className="text-3xl font-bold text-center text-green-800 mb-10">
           NHỮNG TOUR TREKKING NỔI BẬT
           <br />
@@ -14,7 +14,7 @@ export const ListTours = () => {
             <span className="text-lg sm:text-xl">(khởi hành từ 30/8/2025)</span>
           </span>
         </h2>
-        <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {LIST_TOURS.map((tour, index) => (
             <TourCard
               title={tour.title}

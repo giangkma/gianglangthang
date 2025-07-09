@@ -2,7 +2,7 @@ import { APP_CONST, NameTour, TypeTour } from 'domain/index'
 
 export const HamLon = {
   name: NameTour.HAM_LON,
-  type: TypeTour.SUMMER,
+  type: TypeTour.HAMLON,
   home: {
     title: 'Hàm Lợn 462m',
     description:
@@ -37,6 +37,8 @@ Vẻ đẹp của núi Hàm Lợn càng được thêm tô điểm khi ngay bên
       }
     ]
   },
+  isHaveCharity: false,
+
   cost: {
     value: 100000,
     description: '💰 Đặt cọc trước 100% chi phí tour',

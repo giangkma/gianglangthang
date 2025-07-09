@@ -3,8 +3,8 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div>
-      <section className="max-w-7xl mx-auto px-6 sm:py-16 py-4 grid md:grid-cols-2 gap-12 items-center">
+    <div className="container mx-auto">
+      <section className="sm:py-16 py-4 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="sm:text-4xl text-3xl font-bold my-4 text-green-800 uppercase">
             Khám&nbsp;phá & Lan&nbsp;toả

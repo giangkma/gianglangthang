@@ -13,11 +13,8 @@ export const Schedule = ({ name }: IProps) => {
   const lengthCol = data.schedule.schedule.length
 
   return (
-    <section
-      id="schedule"
-      className="bg-[#f2f2ed] w-full sm:py-12 !pt-2 px-4 sm:px-6 md:px-10 lg:px-20"
-    >
-      <div className="max-w-7xl mx-auto">
+    <section id="schedule" className="bg-[#f2f2ed] w-full sm:py-12 !pt-2">
+      <div className="mx-auto container">
         <h2 className="title-section">
           {data.schedule.title}
           <p className="text-sm text-gray-600 italic mb-2 font-medium">

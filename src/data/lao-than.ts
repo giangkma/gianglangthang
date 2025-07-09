@@ -42,13 +42,13 @@ export const LaoThan = {
         day: 'Ngày 0: Hà Nội - Lào Cai',
         activities: [
           `🕗 20h: Tập trung tại ${APP_CONST.location}, khởi hành đến homestay TP. Lào Cai.`,
-          '🕐 0h30 – 1h sáng: Đến homestay, nhận phòng và nghỉ ngơi để lấy sức cho hành trình.'
+          '🕐 0h30 – 1h sáng: Đến homestay, nhận phòng và nghỉ ngơi để lấy sức cho hành trình ngày mai.'
         ]
       },
       {
         day: 'Ngày 1: Hành trình bắt đầu',
         activities: [
-          '🕖 7h: Thức dậy, vệ sinh cá nhân và dùng bữa sáng tại homestay.',
+          '🕖 7h: Thức dậy, vệ sinh cá nhân và dùng bữa sáng ở gần homestay.',
           '🕗 8h: Di chuyển đến điểm bắt đầu hành trình leo núi.',
           '🕚 11h: Đến điểm trekking Lảo Thẩn. Đoàn có thể nghỉ và ăn trưa tại chân núi hoặc đi sâu vào rừng mới ăn tùy điều kiện thời tiết.',
           '🕓 16h: Tới lán nghỉ, nghỉ ngơi. Ai khỏe có thể tiếp tục leo đỉnh để săn mây hoàng hôn.',
@@ -71,6 +71,8 @@ export const LaoThan = {
       }
     ]
   },
+  isHaveCharity: true,
+
   cost: {
     value: 2600000,
     description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',

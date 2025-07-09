@@ -22,7 +22,7 @@ export const HamLon = () => {
         />
         <meta property="og:image" content="/assets/tours/ham-lon/1.png" />
       </Helmet>
-      <BodyTour type={TypeTour.SUMMER} name={NameTour.HAM_LON} />
+      <BodyTour type={TypeTour.HAMLON} name={NameTour.HAM_LON} />
     </>
   )
 }

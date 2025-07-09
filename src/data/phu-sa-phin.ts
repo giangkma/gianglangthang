@@ -65,6 +65,8 @@ Ngọn núi này được dân mê xê dịch ví như một huyền thoại, b�
       }
     ]
   },
+  isHaveCharity: true,
+
   cost: {
     value: 2800000,
     description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',

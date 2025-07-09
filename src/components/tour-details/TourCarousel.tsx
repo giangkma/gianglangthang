@@ -70,7 +70,7 @@ export const TourCarousel = (): JSX.Element => {
   return (
     <section className="relative bg-white py-8 px-4 md:px-8 lg:px-16">
       <h2 className="title-section">Các Tour Khác</h2>
-      <div className="relative">
+      <div className="relative container mx-auto">
         <Slider {...settings}>
           {LIST_TOURS.map((tour, idx) => (
             <div key={idx} className="px-2 ">

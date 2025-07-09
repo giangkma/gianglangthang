@@ -64,6 +64,8 @@ Cũng chính vì điều đó, đỉnh núi cao 2.756m này thời gian gần đ
       }
     ]
   },
+  isHaveCharity: true,
+
   cost: {
     value: 2800000,
     description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',

@@ -10,6 +10,9 @@ import { NguChiSon } from './ngu-chi-son'
 import { Putaleng } from './putaleng'
 import { TaChiNhuNamNghiep } from './ta-chi-nhu-nam-nghiep'
 import { HamLon } from './ham-lon'
+import { YTy } from './y-ty'
+import { HangDeCho } from './hang-de-cho'
+import { TamDao } from './tam-dao'
 
 export const DATA = {
   [NameTour.LAO_THAN]: LaoThan,
@@ -22,10 +25,24 @@ export const DATA = {
   [NameTour.NGU_CHI_SON]: NguChiSon,
   [NameTour.PUTALENG]: Putaleng,
   [NameTour.TA_CHI_NHU_NAM_NGHIEP]: TaChiNhuNamNghiep,
-  [NameTour.HAM_LON]: HamLon
+  [NameTour.HAM_LON]: HamLon,
+  [NameTour.Y_TY]: YTy,
+  [NameTour.HANG_DE_CHO]: HangDeCho,
+  [NameTour.TAM_DAO]: TamDao
 }
 
 export const LIST_TOURS = [
+  {
+    title: 'Săn Mây Y Tý + Thác Rồng',
+    image: '/assets/tours/y-ty/1.png',
+    label: 'Tour Mới',
+    duration: '2N2Đ',
+    level: 'Độ khó: 2/10',
+    price: DATA['y-ty'].cost.value,
+    description:
+      'Combo trải nghiệm hiking rừng thảo quả, săn mây y tý và checkin thác Rồng hùng vĩ.',
+    link: '/tours/y-ty'
+  },
   {
     title: 'Hàm Lợn 462m',
     image: '/assets/tours/ham-lon/1.png',
@@ -36,6 +53,28 @@ export const LIST_TOURS = [
     description:
       'Hàm Lợn là lựa chọn lý tưởng cho người mới bắt đầu trekking, chỉ cách Hà Nội 40km với cảnh quan tuyệt đẹp.',
     link: '/tours/ham-lon'
+  },
+  {
+    title: 'Háng Đề Chơ',
+    image: '/assets/tours/hang-de-cho/1.png',
+    label: 'Tour Mới',
+    duration: '2N1Đ',
+    level: 'Độ khó: 3/10',
+    price: DATA['hang-de-cho'].cost.value,
+    description:
+      'Hàm Lợn là lựa chọn lý tưởng cho người mới bắt đầu trekking, chỉ cách Hà Nội 40km với cảnh quan tuyệt đẹp.',
+    link: '/tours/hang-de-cho'
+  },
+  {
+    title: 'Hiking Tam Đảo',
+    image: '/assets/tours/tam-dao/1.png',
+    label: 'Tour Mới',
+    duration: 'Trong ngày',
+    level: 'Độ khó: 4/10',
+    price: DATA['tam-dao'].cost.value,
+    description:
+      'Hàm Lợn là lựa chọn lý tưởng cho người mới bắt đầu trekking, chỉ cách Hà Nội 40km với cảnh quan tuyệt đẹp.',
+    link: '/tours/tam-dao'
   },
   {
     title: 'Lảo Thẩn 2860m',

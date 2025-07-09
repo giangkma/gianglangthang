@@ -63,6 +63,8 @@ Còn đỉnh Lùng Cúng gây choáng ngợp với góc nhìn tứ phương, tho
       }
     ]
   },
+  isHaveCharity: true,
+
   cost: {
     value: 2600000,
     description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',

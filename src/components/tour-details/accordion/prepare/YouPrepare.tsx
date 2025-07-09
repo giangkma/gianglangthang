@@ -14,7 +14,7 @@ const data = {
       ]
     }
   },
-  summer: {
+  hamlon: {
     body: {
       title: '🎒 Bạn cần chuẩn bị',
       items: [
@@ -23,11 +23,23 @@ const data = {
       ]
     }
   },
+  tamdao: {
+    body: {
+      title: '🎒 Bạn cần chuẩn bị',
+      items: [
+        '🍫 Đồ ăn vặt, năng lượng',
+        '🧥 Quần áo để thay trước khi về và khi hiking'
+      ]
+    }
+  },
   hiking: {
     body: {
       title: '🎒 Bạn cần chuẩn bị',
       items: [
-        '👟 Giày thể thao tốt, rộng hơn chân 1–2 size',
+        '👟 Giày thể thao tốt, rộng hơn chân 1–2 size (ưu tiên giày trekking chuyên dụng)',
+        '🧥 Áo khoác gió, giữ nhiệt; quần nhanh khô (nên mang 3 bộ, 1-2 bộ dùng trekk, 1 bộ mặc lúc về)',
+        '🔋 Sạc dự phòng',
+        '🧼 Đồ vệ sinh cá nhân, dép lê',
         '🍫 Đồ ăn vặt, năng lượng'
       ]
     }

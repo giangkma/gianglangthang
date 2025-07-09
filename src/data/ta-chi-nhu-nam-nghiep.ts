@@ -63,6 +63,8 @@ export const TaChiNhuNamNghiep = {
       }
     ]
   },
+  isHaveCharity: true,
+
   cost: {
     value: 2700000,
     description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',

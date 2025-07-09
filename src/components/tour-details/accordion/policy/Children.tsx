@@ -4,26 +4,29 @@ import React from 'react'
 const DATA = {
   trekking: {
     items: [
-      '👶 Trẻ &lt;6 tuổi: 50% giá tour',
       '👧 Trẻ &lt;10 tuổi: 70% giá tour',
-      '🧒 &gt;=10 tuổi: giá người lớn',
+      '🧒 &gt;=10 tuổi: giá người lớn (Lưu ý: tính theo năm sinh, không tính theo ngày sinh nhật)',
       '👨‍👩‍👧 Nhóm ≥3 người: giảm 70k/người',
-      '🎁 Hoàn thành tour: tặng 100k cho tour kế tiếp'
+      '🎁 Hoàn thành tour: tặng 100k cho tour trekking kế tiếp'
     ]
   },
-  summer: {
+  hamlon: {
     items: [
       '👶 Trẻ em bằng với giá người lớn',
       '🎁 Hoàn thành tour => miễn phí các tour Hàm Lợn kế tiếp'
     ]
   },
+  tamdao: {
+    items: [
+      '👧 Tour này hiện tại chưa dành cho trẻ em &lt;10 tuổi',
+      '👨‍👩‍👧 Nhóm ≥3 người: giảm 50k/người'
+    ]
+  },
   hiking: {
     items: [
-      '👶 Trẻ &lt;6 tuổi: 50% giá tour',
       '👧 Trẻ &lt;10 tuổi: 70% giá tour',
-      '🧒 &gt;=10 tuổi: giá người lớn',
-      '👨‍👩‍👧 Nhóm ≥3 người: giảm 70k/người',
-      '🎁 Hoàn thành tour: tặng 100k cho tour kế tiếp'
+      '🧒 &gt;=10 tuổi: giá người lớn (Lưu ý: tính theo năm sinh, không tính theo ngày sinh nhật)',
+      '👨‍👩‍👧 Nhóm ≥3 người: giảm 50k/người'
     ]
   }
 }
