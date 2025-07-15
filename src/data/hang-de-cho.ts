@@ -58,7 +58,8 @@ Thác Háng Đề Chơ được biết đến từ rất lâu nhưng bây giờ 
 
   cost: {
     value: 1750000,
-    description: '💰 Đặt cọc trước 50% chi phí tour',
+    description:
+      '💰 Đặt trước 200k/khách bao gồm xe, lán nghỉ, porter, ăn uống',
     isHaveDiscount: true
   }
 }

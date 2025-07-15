@@ -48,9 +48,10 @@ export const TourBookingForm = ({ data }: { data: any }) => {
       )}
       <div className="lg:sticky top-24 bg-white shadow-xl rounded-2xl p-6 border border-orange-200 w-full">
         <p className="text-gray-500 mb-1 text-sm">Giá</p>
-        <h3 className="text-4xl font-extrabold drop-shadow-sm text-orange-600 mb-4">
+        <h3 className="text-4xl font-extrabold drop-shadow-sm text-orange-600 mb-2">
           {formatCurrency(data.cost.value)}
         </h3>
+        <p className="text-gray-500 mb-4 text-xs">{data.cost.description}</p>
 
         <div className="space-y-4">
           <div className="flex items-center gap-2">

@@ -72,7 +72,8 @@ Hành trình leo núi Putaleng đi xuyên qua cánh rừng nguyên sinh của Vi
 
   cost: {
     value: 3700000,
-    description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',
+    description:
+      '💰 Đặt trước 500k/khách bao gồm xe, lán nghỉ, porter, ăn uống',
     isHaveDiscount: true
   }
 }

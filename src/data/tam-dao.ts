@@ -46,7 +46,7 @@ Tour này sẽ yêu cầu có thể lực và đã từng đi trekk trước đ�
 
   cost: {
     value: 750000,
-    description: '💰 Đặt cọc trước 50% chi phí tour',
+    description: '💰 Đặt trước 200k/khách bao gồm xe, ăn uống',
     isHaveDiscount: false
   }
 }

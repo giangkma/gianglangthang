@@ -67,7 +67,8 @@ export const TaChiNhuNamNghiep = {
 
   cost: {
     value: 2700000,
-    description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',
+    description:
+      '💰 Đặt trước 300k/khách bao gồm xe, lán nghỉ, porter, ăn uống',
     isHaveDiscount: true
   }
 }

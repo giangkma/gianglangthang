@@ -70,7 +70,8 @@ export const YTy = {
 
   cost: {
     value: 2400000,
-    description: '💰 Đặt cọc trước 50% chi phí tour',
+    description:
+      '💰 Đặt trước 300k/khách bao gồm xe, lán nghỉ, porter, ăn uống',
     isHaveDiscount: true
   }
 }

@@ -69,7 +69,8 @@ Ngọn núi này được dân mê xê dịch ví như một huyền thoại, b�
 
   cost: {
     value: 2800000,
-    description: '💰 Đặt cọc trước 50% bao gồm xe, lán nghỉ, porter, ăn uống',
+    description:
+      '💰 Đặt trước 300k/khách bao gồm xe, lán nghỉ, porter, ăn uống',
     isHaveDiscount: true
   }
 }

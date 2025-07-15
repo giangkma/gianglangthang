@@ -39,9 +39,33 @@ export const Register = () => {
           số lượng người tham gia.
         </li>
         <li>
-          Thanh toán <strong>đặt cọc 50%-100% (tuỳ tour)</strong> để giữ chỗ.
-          Phần còn lại sẽ được thanh toán sau khi tour hoàn thành.
+          Thanh toán chuyển khoản trước để giữ chỗ. Phần còn lại sẽ được thanh
+          toán cho HDV khi đi tour để HDV chi trả các chi phí liên quan.
         </li>
+        {/* cọc 200 */}
+        <li>
+          <strong>Cọc 500.000đ/người với các tour &gt; 3.000.000đ</strong>
+        </li>
+        <li>
+          <strong>Cọc 300.000đ/người với các tour &gt; 2.000.000đ</strong>
+        </li>
+        <li>
+          <strong>Cọc 200.000đ/người với các tour &lt;= 2.000.000đ</strong>
+        </li>
+        <ul className="text-red-500">
+          <li>
+            <strong>Chuyển khoản</strong> theo cú pháp: Tên tour - Họ tên - Số
+            điện thoại
+          </li>
+          <li>
+            Ví dụ: <b>Ta Chi Nhu 19.10 - Nguyễn Văn A - 0986123456</b>
+          </li>
+          <li>
+            <strong>
+              Lưu ý: Chuyển khoản theo cú pháp trên để tránh nhầm lẫn.
+            </strong>
+          </li>
+        </ul>
         <li>
           Sau khi hoàn tất đăng ký, bạn sẽ nhận được{' '}
           <strong>form xác nhận</strong> và hướng dẫn chuẩn bị cho tour.
